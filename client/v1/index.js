@@ -34,6 +34,8 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // 1. Create a new variable and assign it the link of the cheapest t-shirt
 // I can find on these e-shops
 // 2. Log the variable
+const CHEAPEST_TSHIRT = "https://www.faguo-store.com/fr/vetements/7606-arcy-t-shirt-en-coton-recycle-kaki.html";
+console.log(CHEAPEST_TSHIRT);
 
 /**
  * 👕
@@ -44,28 +46,57 @@ console.log(MY_FAVORITE_BRANDS[0]);
  * 👕
  */
 
+console.log(marketplace);
+
 // 🎯 TODO 2: Number of products
 // 1. Create a variable and assign it the number of products
 // 2. Log the variable
+
+const numberOfProducts = marketplace.length;
+console.log(numberOfProducts);
 
 // 🎯 TODO 3: Brands name
 // 1. Create a variable and assign it the list of brands name only
 // 2. Log the variable
 // 3. Log how many brands we have
 
+const BrandNames = []
+for (const product of marketplace) {
+  BrandNames.push(product.brand);
+}
+
+console.log('Unique brand names :')
+let uniqueBrandNames = [...new Set(BrandNames)]
+
+console.log(uniqueBrandNames)
+console.log(uniqueBrandNames.length)
+
 // 🎯 TODO 4: Sort by price
 // 1. Create a function to sort the marketplace products by price
 // 2. Create a variable and assign it the list of products by price from lowest to highest
 // 3. Log the variable
+
+const marketplaceSortPrice = marketplace.sort(function(a, b){
+  return a.price - b.price;
+});
+console.log(marketplaceSortPrice)
 
 // 🎯 TODO 5: Sort by date
 // 1. Create a function to sort the marketplace objects by products date
 // 2. Create a variable and assign it the list of products by date from recent to old
 // 3. Log the variable
 
+const marketplaceSortReleased = marketplace.sort(function(a, b){
+  return a.released - b.released;
+});
+console.log(marketplaceSortReleased)
+
 // 🎯 TODO 6: Filter a specific price range
 // 1. Filter the list of products between 50€ and 100€
 // 2. Log the list
+
+const marketplaceSortFilter = marketplace.filter(marketplace => marketplace.price > 50 && marketplace <= marketplace.price < 100);
+console.log(marketplaceSortFilter);
 
 // 🎯 TODO 7: Average price
 // 1. Determine the average price of the marketplace
