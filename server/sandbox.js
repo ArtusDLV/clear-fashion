@@ -1,5 +1,6 @@
 /* eslint-disable no-console, no-process-exit */
 const dedicatedbrand = require('./eshops/dedicatedbrand');
+const fs = require('fs');
 
 async function sandbox (eshop = 'https://www.dedicatedbrand.com/en/men/news') {
   try {
@@ -9,7 +10,10 @@ async function sandbox (eshop = 'https://www.dedicatedbrand.com/en/men/news') {
 
     console.log(products);
     console.log('done');
-    process.exit(0);
+    const jsonString = JSON.stringify(products, null, 2);
+    fs.writeFileSync('./dedicated.json', jsonString);
+    process.exit(0);   
+
   } catch (e) {
     console.error(e);
     process.exit(1);

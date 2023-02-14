@@ -21,8 +21,21 @@ const parse = data => {
           .find('.productList-price')
           .text()
       );
+      
+      //We get the link of the product
+      const link = $(element)
+        .find('.productList-link')
+        .attr('href');
 
-      return {name, price};
+      //Get scraping date
+      const date = new Date();
+
+      //Get the image of the product
+      const image = $(element)
+        .find('.js-lazy')
+        .attr('data-src');
+      
+      return {name, price, link, image, date};
     })
     .get();
 };
