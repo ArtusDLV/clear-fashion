@@ -1,18 +1,23 @@
 /* eslint-disable no-console, no-process-exit */
 const dedicatedbrand = require('./eshops/dedicatedbrand');
 const circlesportswearbrand = require('./eshops/circlesportswearbrand');
+const montlimart = require('./eshops/montlimart.js');
+
+const url_list = [dedicatedbrand, circlesportswearbrand, montlimart];
 const fs = require('fs');
 
-async function sandbox (eshop = ['https://shop.circlesportswear.com/collections/collection-homme', 'https://www.dedicatedbrand.com/en/men/news']) {
-  try {
+async function sandbox (eshop = ['https://www.dedicatedbrand.com/en/men/news', 'https://shop.circlesportswear.com/collections/collection-homme', 'https://www.montlimart.com/99-vetements']) {
+  try {  
+    var allProducts = []
+    for(let i = 0; i < eshop.length; i++)
+    {
+      console.log(`🕵️‍♀️  browsing ${eshop[i]} eshop`);
 
-    console.log(`🕵️‍♀️  browsing ${eshop} eshop`);
-
-    const products = await circlesportswearbrand.scrape(eshop);
-
-    console.log(products);
-    console.log('done');
-    const jsonString = JSON.stringify(products, null, 2);
+      const products = await url_list[i].scrape(eshop[i]);
+      console.log(products);
+      allProducts = allProducts.concat(products);
+    }    
+    const jsonString = JSON.stringify(allProducts, null, 2);
     fs.writeFileSync('./products_scraped.json', jsonString);
     process.exit(0);   
 

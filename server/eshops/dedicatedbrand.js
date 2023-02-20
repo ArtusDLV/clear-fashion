@@ -35,7 +35,9 @@ const parse = data => {
         .find('.js-lazy')
         .attr('data-src');
       
-      return {name, price, link, image, date};
+      const brand = 'Dedicated'
+
+      return {name, price, link, image, date, brand};
     })
     .get();
 };

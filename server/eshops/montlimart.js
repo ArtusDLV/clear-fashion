@@ -9,47 +9,34 @@ const cheerio = require('cheerio');
 const parse = data => {
   const $ = cheerio.load(data);
 
-  return $('.product-grid-container .grid__item')
+  return $('.products-list.row .products-list__block')
     .map((i, element) => {
       const name = $(element)
-        .find('.full-unstyled-link')
+        .find('.product-miniature__title')
         .text()
         .trim()
         .replace(/\s/g, ' ');
 
-      var price = 
+      const price = parseInt(
         $(element)
-          .find('.price__container')
-          .find('.money')
+          .find('.product-miniature__pricing')
           .text()
-      ;
-
-      new_price = "";
-      for(let i = 1; i < price.length; i++)
-      {
-        if(price[i] != '€')
-        {
-          new_price = new_price + price[i]
-        }
-        else{break;}
-      }
-      price = new_price
+      );
       
       //We get the link of the product
-      var link = $(element)
-        .find('.full-unstyled-link')
+      const link = $(element)
+        .find('.product-miniature__thumb-link')
         .attr('href');
-        link = "https://shop.circlesportswear.com" + link;
 
       //Get scraping date
       const date = new Date();
 
       //Get the image of the product
       const image = $(element)
-        .find('.card__media img')
-        .attr('src');
+        .find('.w-100')
+        .attr('data-src');
       
-      const brand = 'Circle Sportswear'
+      const brand = 'Montlimart'
 
       return {name, price, link, image, date, brand};
     })
