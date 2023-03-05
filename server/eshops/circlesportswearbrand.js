@@ -12,6 +12,7 @@ const parse = data => {
   return $('.product-grid-container .grid__item')
     .map((i, element) => {
       const name = $(element)
+        .find('.card__inner')
         .find('.full-unstyled-link')
         .text()
         .trim()
@@ -20,20 +21,17 @@ const parse = data => {
       var price = 
         $(element)
           .find('.price__container')
+          .find('.price__sale')
           .find('.money')
           .text()
       ;
-
+      
       new_price = "";
       for(let i = 1; i < price.length; i++)
-      {
-        if(price[i] != '€')
-        {
-          new_price = new_price + price[i]
-        }
-        else{break;}
+      {        
+        new_price = new_price + price[i];        
       }
-      price = new_price
+      price = parseInt(new_price);
       
       //We get the link of the product
       var link = $(element)
@@ -49,8 +47,7 @@ const parse = data => {
         .find('.card__media img')
         .attr('src');
       
-      const brand = 'Circle Sportswear'
-
+      const brand = 'Circle Sportswear';
       return {name, price, link, image, date, brand};
     })
     .get();

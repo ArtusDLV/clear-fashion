@@ -6,7 +6,7 @@ const montlimart = require('./eshops/montlimart.js');
 const url_list = [dedicatedbrand, circlesportswearbrand, montlimart];
 const fs = require('fs');
 
-async function sandbox (eshop = ['https://www.dedicatedbrand.com/en/men/news', 'https://shop.circlesportswear.com/collections/collection-homme', 'https://www.montlimart.com/99-vetements']) {
+async function sandbox (eshop = ['https://www.dedicatedbrand.com/en/men/all-men', 'https://shop.circlesportswear.com/collections/all', 'https://www.montlimart.com/99-vetements']) {
   try {  
     var allProducts = []
     for(let i = 0; i < eshop.length; i++)
