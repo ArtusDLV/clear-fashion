@@ -1,0 +1,38 @@
+body{
+    background: rgb(26, 124, 181);
+}
+h1 {
+    font-family: "DMSerif", Verdana;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+main {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(245, 245, 245, 0.9);
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+section div{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+section{
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    font-family: "DMSerif", Verdana;
+    text-transform: capitalize;
+}

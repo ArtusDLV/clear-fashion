@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>👕 Clear Fahion | Environmentally & human-friendly clothes</title>
+    <title>👕 Clear Fashion | Environmentally & human-friendly clothes</title>
   </head>
   <body>
     <h1>Clear fashion</h1>
-    <section id="options">
+	<main>
+	<div class="Flexbox">
+	<section id="options">
+	<h2>Filters</h2>
       <div id="show">
         <label for="show-select">Show:</label>
         <select name="show" id="show-select">
@@ -24,11 +27,13 @@
 		<select name="reasonable" id="reasonable-price">
 			<option value="not-filtered">No</option>
 			<option value="filtered">Yes</option>
-		</select>        
+		</select> 
+		<div id="recently">		
 		<label for="recently-released">By recently released:</label>
 		<select name="recently" id="recently-released">
 			<option value="not-filtered">No</option>
 			<option value="filtered">Yes</option>
+		</div>
 		</select>
         <div id="brand">
           <label for="brand-select">By brands:</label>
@@ -49,35 +54,38 @@
     <section id="indicators">
       <h2>Indicators</h2>
       <div>
-        <span>Number of products</span>
+        <span>Number of products: </span>
         <span id="nbProducts">0</span>
       </div>
       <div>
-        <span>Number of brands</span>
+        <span>Number of brands: </span>
         <span id="nbBrands">0</span>
       </div>
       <div>
-        <span>Number of new products</span>
+        <span>Number of new products: </span>
         <span id="nbNewProducts">0</span>
       </div>
       <div>
-        <span>p50 price value</span>
+        <span>p50 price value: </span>
         <span id="p50">0</span>
       </div>
       <div>
-        <span>p90 price value</span>
+        <span>p90 price value: </span>
         <span id="p90">0</span>
       </div>
       <div>
-        <span>p95 price value</span>
+        <span>p95 price value: </span>
         <span id="p95">0</span>
       </div>
       <div>
-        <span>Last released date</span>
+        <span>Last released date: </span>
         <span id="lastRealeasedDate">2005-01-01</span>
       </div>
     </section>
     <section id="products"></section>
     <script type="text/javascript" charset="UTF-8" src="portfolio.js"></script>
+	</div> 
+	</main>
+	<link rel="stylesheet" href="style.css" />
   </body>
 </html>

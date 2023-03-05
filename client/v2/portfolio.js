@@ -37,6 +37,9 @@ const spanP50 = document.querySelector('#p50');
 const spanP90 = document.querySelector('#p90');
 const spanP95 = document.querySelector('#p95');
 const spanlastRealeasedDate = document.querySelector('#lastRealeasedDate');
+const spanNbBrands = document.querySelector('#nbBrands');
+
+var products_used_for_indicators_filtered;
 
 /**
  * Set global value
@@ -45,7 +48,7 @@ const spanlastRealeasedDate = document.querySelector('#lastRealeasedDate');
  */
 const setCurrentProducts = ({result, meta}) => {
   currentProducts = result;
-  currentPagination = meta;
+  currentPagination = meta;  
 };
 
 /**
@@ -127,27 +130,33 @@ const renderPagination = pagination => {
     {'length': pageCount},
     (value, index) => `<option value="${index + 1}">${index + 1}</option>`
   ).join('');
-
   selectPage.innerHTML = options;
   selectPage.selectedIndex = currentPage - 1;
 };
 
 const renderBrands = async() => {  
- const brands_object = await fetchBrands();
- const brands_array = [];
- for (const prop in brands_object) {brands_array.push(`${brands_object[prop]}`);}
- console.log(brands_array);
- 
- //const {currentPage, pageCount} = pagination;
- const options = Array.from(
-    {'brand': brands_array},
-    (value, index) => `<option value="${index + 1}">${index + 1}</option>`
-  ).join('');
+  const brands_object = await fetchBrands();
+  var brands_array = [];
+  for (const prop in brands_object) {brands_array.push(brands_object[prop]);}  
+  brands_array = brands_array[0];
+  brands_array.unshift("");
 
-selectBrands.innerHTML = options;
-//selectBrands.selectedIndex = currentPage - 1;
-  
+  var options = [];
+  for (let i = 0; i < brands_array.length; i++) {
+    if(brands_array[i] == "")
+    {
+      options.push(`<option value="no-brand">${brands_array[i]}</option>`);
+    }
+    else
+    {
+      options.push(`<option value="${brands_array[i]}">${brands_array[i]}</option>`);
+    }
+  }
+  options = options.join('');
+  selectBrands.innerHTML = options;
 };
+
+renderBrands();
 
 /**
  * Render page selector
@@ -155,45 +164,72 @@ selectBrands.innerHTML = options;
  */
 const renderIndicators = async(pagination) => {
   const {count} = pagination;
-  const Allproducts = await fetchProducts(1, count, brand_selected);
-  var recent_products = {...Allproducts};
-  var price_products = {...Allproducts};
-  var date_products = {...Allproducts};
 
-  //Get the number of products recently released
-  var onlyproduct = recent_products.result;
-  var currentTime = new Date();
-  currentTime.setDate(currentTime.getDate()-14);
-  onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.released > currentTime);
-  recent_products.result = onlyproduct;
+  //Get number of brands
+  const brands_object = await fetchBrands();
+  var brands_array = [];
+  for (const prop in brands_object) {brands_array.push(brands_object[prop])};
+  brands_array = brands_array[0];
 
-  //Get the p50, p90 and p95 price value indicators
-  var onlyproduct = price_products.result;    
-  let products_sorted = onlyproduct.sort(
-    (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);
-  const p50_value = products_sorted[Math.round(products_sorted.length*0.5)].price;
-  const p90_value = products_sorted[Math.round(products_sorted.length*0.1)].price;
-  const p95_value = products_sorted[Math.round(products_sorted.length*0.05)].price;
+  if(count != 0)
+  {
+    const Allproducts = products_used_for_indicators_filtered;
+    var recent_products = {...Allproducts};
+    var price_products = {...Allproducts};
+    var date_products = {...Allproducts};
 
-  //Get last released date
-  var onlyproduct = date_products.result;    
-  let products_sort_date = onlyproduct.sort(
-    (p1, p2) => (p1.released < p2.released) ? 1 : (p1.released > p2.released) ? -1 : 0);
-  const last_released_date = products_sort_date[0].released;
+    //Get the number of products recently released
+    var onlyproduct = recent_products.result;
+    var currentTime = new Date();
+    currentTime.setDate(currentTime.getDate()-14);
+    onlyproduct = onlyproduct.filter(onlyproduct => Date.parse(onlyproduct.released) > currentTime);
+    recent_products.result = onlyproduct;
 
-  spanNbProducts.innerHTML = count;
-  spanNbNewProducts.innerHTML = recent_products.result.length;
-  spanP50.innerHTML = p50_value;
-  spanP90.innerHTML = p90_value;
-  spanP95.innerHTML = p95_value;
-  spanlastRealeasedDate.innerHTML = last_released_date;
+    //Get the p50, p90 and p95 price value indicators
+    var onlyproduct = price_products.result;    
+    let products_sorted = onlyproduct.sort(
+      (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);
+    var p50_value = 0;
+    var p90_value = 0;
+    var p95_value = 0;
+    
+    p50_value = products_sorted[Math.round(products_sorted.length*0.5)].price;
+    p90_value = products_sorted[Math.round(products_sorted.length*0.1)].price;
+    p95_value = products_sorted[Math.round(products_sorted.length*0.05)].price;
+    
+
+    //Get last released date
+    var onlyproduct = date_products.result;    
+    let products_sort_date = onlyproduct.sort(
+      (p1, p2) => (p1.released < p2.released) ? 1 : (p1.released > p2.released) ? -1 : 0);
+    var last_released_date = Date();
+
+    last_released_date = products_sort_date[0].released;
+
+    spanNbProducts.innerHTML = count;
+    spanNbNewProducts.innerHTML = recent_products.result.length;
+    spanP50.innerHTML = p50_value;
+    spanP90.innerHTML = p90_value;
+    spanP95.innerHTML = p95_value;
+    spanNbBrands.innerHTML = brands_array.length;
+    spanlastRealeasedDate.innerHTML = last_released_date;
+  }
+  else
+  {
+    spanNbProducts.innerHTML = 0;
+    spanNbNewProducts.innerHTML = 0;
+    spanP50.innerHTML = "None";
+    spanP90.innerHTML = "None";
+    spanP95.innerHTML = "None";
+    spanNbBrands.innerHTML = brands_array.length;
+    spanlastRealeasedDate.innerHTML = "None";
+  }
 };
 
 const render = (products, pagination) => {
   renderProducts(products);
   renderPagination(pagination);
-  renderIndicators(pagination);
-  //renderBrands();
+  renderIndicators(pagination);  
 };
 
 /**
@@ -204,8 +240,8 @@ const render = (products, pagination) => {
  * Select the number of products to display
  */
 selectShow.addEventListener('change', async (event) => {
-  const products = await fetchProducts(1, parseInt(event.target.value), brand_selected);
-
+  /*
+  const products = await fetchProducts(1, parseInt(event.target.value), brand_selected);  
   if(filterReleased.value == "filtered")
   {     
     var onlyproduct = products.result;
@@ -220,16 +256,18 @@ selectShow.addEventListener('change', async (event) => {
     var onlyproduct = products.result;    
     onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
     products.result = onlyproduct;
-  }
-
+  } 
   setCurrentProducts(products);
   render(currentProducts, currentPagination);
+  */
+ allFunctions();  
 });
 
 //Change pagination
 selectPage.addEventListener('change', async (event) => {
+  /*
   const products = await fetchProducts(parseInt(event.target.value), currentPagination.pageSize, brand_selected);
-
+  
   if(filterReleased.value == "filtered")
   {     
     var onlyproduct = products.result;
@@ -245,15 +283,22 @@ selectPage.addEventListener('change', async (event) => {
     onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
     products.result = onlyproduct;
   }
-
+  
   setCurrentProducts(products);
   render(currentProducts, currentPagination);
+  */
+ allFunctions(true);
 });
 
 //Change brands
 selectBrands.addEventListener('change', async (event) => {
   brand_selected = event.target.value
-  const products = await fetchProducts(1, 12, brand_selected);
+  if(event.target.value == "no-brand")
+  {
+    brand_selected = "";
+  }
+  /*
+  const products = await fetchProducts(1, selectShow.value, brand_selected);
 
   if(filterReleased.value == "filtered")
   {     
@@ -273,10 +318,13 @@ selectBrands.addEventListener('change', async (event) => {
 
   setCurrentProducts(products);
   render(currentProducts, currentPagination);
+  */
+  allFunctions();
 });
 
 // Filter by recently released
 filterReleased.addEventListener('change', async (event) => {
+  /*
   if(event.target.value == "filtered")
   { 
     var products = await fetchProducts(1, 12, brand_selected);
@@ -294,10 +342,13 @@ filterReleased.addEventListener('change', async (event) => {
     setCurrentProducts(products);
     render(currentProducts, currentPagination);
   }
+  */
+  allFunctions();
 });
 
 // Filter by price
 filterReasonable.addEventListener('change', async (event) => {
+  /*
   if(event.target.value == "filtered")
   { 
     var products = await fetchProducts(1, 12, brand_selected);
@@ -313,10 +364,13 @@ filterReasonable.addEventListener('change', async (event) => {
     setCurrentProducts(products);
     render(currentProducts, currentPagination);
   }
+  */
+  allFunctions();
 });
 
 // Sort by price and date
 selectSort.addEventListener('change', async (event) => {
+  /*
   var products = await fetchProducts(selectPage.value, selectShow.value, brand_selected);
   if(event.target.value == "price-desc")
   { 
@@ -348,11 +402,118 @@ selectSort.addEventListener('change', async (event) => {
   }
   setCurrentProducts(products);
   render(currentProducts, currentPagination);
+  */
+  allFunctions();
 });
+
+const allFunctions = async(change_page) => { 
+  //First, get all the products
+  var count = 5;
+  try {
+    const response = await fetch(
+      `https://clear-fashion-api.vercel.app?`
+    );
+    const body = await response.json();
+
+    if (body.success !== true) {
+      console.error(body);
+    }    
+    count = Object.values(body)[1].meta.count;
+  } catch (error) {
+    console.error(error);
+  }
+  const Allproducts = await fetchProducts(1, count, brand_selected);
+  var products = {...Allproducts};
+  //We first filter by price
+  if(filterReasonable.value == "filtered")
+  {
+    var onlyproduct = products.result;    
+    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
+    products.result = onlyproduct;
+  }
+  //We then filter by released date
+  if(filterReleased.value == "filtered")
+  { 
+    var onlyproduct = products.result;
+    var currentTime = new Date();
+    currentTime.setDate(currentTime.getDate()-14);
+    onlyproduct = onlyproduct.filter(onlyproduct => Date.parse(onlyproduct.released) > currentTime);
+    products.result = onlyproduct;
+  }
+  //We then sort the products
+  if(selectSort.value == "price-desc")
+  { 
+    var onlyproduct = products.result;    
+    let products_sorted = onlyproduct.sort(
+      (p1, p2) => (p1.price < p2.price) ? 1 : (p1.price > p2.price) ? -1 : 0);  
+    products.result = products_sorted;    
+  }
+  else if(selectSort.value == "price-asc")
+  {
+    var onlyproduct = products.result;    
+    let products_sorted = onlyproduct.sort(
+      (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);  
+    products.result = products_sorted; 
+  }
+  else if(selectSort.value == "date-desc")
+  {
+    var onlyproduct = products.result;    
+    let products_sorted = onlyproduct.sort(
+      (p1, p2) => (Date.parse(p1.released) < Date.parse(p2.released)) ? 1 : (Date.parse(p1.released) > Date.parse(p2.released)) ? -1 : 0);  
+    products.result = products_sorted; 
+  }
+  else if(selectSort.value == "date-asc")
+  {
+    var onlyproduct = products.result;    
+    let products_sorted = onlyproduct.sort(
+      (p1, p2) => (Date.parse(p1.released) > Date.parse(p2.released)) ? 1 : (Date.parse(p1.released) < Date.parse(p2.released)) ? -1 : 0);  
+    products.result = products_sorted; 
+  }
+
+  products_used_for_indicators_filtered = {...products};
+  setCurrentProducts(products);  
+
+  currentPagination.pageSize = parseInt(selectShow.value); 
+  currentPagination.count = parseInt(currentProducts.length);
+  if(change_page != true)
+  {
+    currentPagination.currentPage = 1;
+    selectPage.value = 1;
+    selectPage.innerHTML = 1;
+  }
+  else
+  {
+    currentPagination.currentPage = parseInt(selectPage.value);
+  }
+  var number_of_pages = Math.floor(currentProducts.length/parseInt(selectShow.value));
+  if(currentProducts.length%parseInt(selectShow.value) != 0)
+  {
+    number_of_pages = number_of_pages + 1;
+  } 
+  currentPagination.pageCount = number_of_pages;
+  const new_current_products = [];
+  if(parseInt(selectShow.value) * parseInt(currentPagination.currentPage) < currentPagination.count)
+  {
+    for(let i = 0 + parseInt(selectShow.value)*(parseInt(currentPagination.currentPage)-1); i < parseInt(selectShow.value) * parseInt(currentPagination.currentPage); i++)
+    {
+      new_current_products.push(currentProducts[i])
+    }
+  }
+  else
+  {
+    for(let i = 0 + parseInt(selectShow.value)*(parseInt(currentPagination.currentPage)-1); i < currentPagination.count; i++)
+    {
+      new_current_products.push(currentProducts[i])
+    }
+  }
+  render(new_current_products, currentPagination);
+};
 
 document.addEventListener('DOMContentLoaded', async () => {
   const products = await fetchProducts();
 
+  products_used_for_indicators_filtered = {...products};
   setCurrentProducts(products);
+
   render(currentProducts, currentPagination);
 });
