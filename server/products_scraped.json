@@ -1,10 +1,26 @@
 [
   {
+    "name": "Swim Shorts Sandhamn Black",
+    "price": 59,
+    "link": "/en/men/all-men/swim-shorts-sandhamn-black-black",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8428_bfd58f2aa4-dedicated_ss23_dag-601402-2-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.167Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Swim Shorts Sandhamn Zebra Blue",
+    "price": 69,
+    "link": "/en/men/all-men/swim-shorts-sandhamn-zebra-blue-blue",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8439_31c875544f-dedicated_ss23_dag-41071-2-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.168Z",
+    "brand": "Dedicated"
+  },
+  {
     "name": "T-shirt Stockholm Butterfly Oat White",
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-butterfly-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8360_3774a87f2e-dedicated_ss23_dag1_1928-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.241Z",
+    "date": "2023-03-19T22:51:12.169Z",
     "brand": "Dedicated"
   },
   {
@@ -12,7 +28,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-marstrand-butterfly-oat-white-whitecap-gray",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8345_3db9a3e19b-dedicated_ss23_dag1_1502-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.242Z",
+    "date": "2023-03-19T22:51:12.169Z",
     "brand": "Dedicated"
   },
   {
@@ -20,7 +36,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-marstrand-ocean-ink-multi-color-multi-color",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8346_b44eb61e0d-dedicated_ss23_dag-3_7309-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.243Z",
+    "date": "2023-03-19T22:51:12.170Z",
     "brand": "Dedicated"
   },
   {
@@ -28,71 +44,7 @@
     "price": 89,
     "link": "/en/men/all-men/hoodie-falun-lawn-chair-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8380_79605c3543-dedicated_ss23_dag1_2824-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.244Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "T-shirt Stockholm Newman White",
-    "price": 39,
-    "link": "/en/men/all-men/t-shirt-stockholm-newman-white-white",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8459_9984fd4420-dedicated_ss23_dag-602453-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.244Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "Shirt Marstrand Zebra Blue",
-    "price": 89,
-    "link": "/en/men/all-men/shirt-marstrand-zebra-blue-blue",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8348_0d2ebed6de-dedicated_ss23_dag-41935-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.244Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "Shirt Marstrand Palm Leaves Green",
-    "price": 89,
-    "link": "/en/men/all-men/shirt-marstrand-palm-leaves-green-green",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8347_2445ab0c42-dedicated_ss23_dag1_1440-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.245Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "T-shirt Stockholm No Soup White",
-    "price": 39,
-    "link": "/en/men/all-men/t-shirt-stockholm-no-soup-white-white",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8460_3dc466f5cb-dedicated_ss23_dag-600341-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.245Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "T-shirt Stockholm Kramer Black",
-    "price": 39,
-    "link": "/en/men/all-men/t-shirt-stockholm-kramer-black-black",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8454_7fb5bb6f79-dedicated_ss23_dag-2_5064-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.245Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "Soft Cap Seinfeld Logo Black",
-    "price": 39,
-    "link": "/en/men/all-men/soft-cap-seinfeld-logo-black-black",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8781_fc0b8afb3b-21159_black_064-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.246Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "Board Shorts Toroe Black",
-    "price": 79,
-    "link": "/en/men/all-men/board-shorts-toroe-black-black",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8369_9e2a0f3513-dedicated_ss23_dag-601492-2-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.246Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "Board Shorts Toroe Big Leaf Duck Green",
-    "price": 79,
-    "link": "/en/men/all-men/board-shorts-toroe-big-leaf-duck-green-duck-green",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8368_a0b8fd7a84-dedicated_ss23_dag-41466-2-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.246Z",
+    "date": "2023-03-19T22:51:12.170Z",
     "brand": "Dedicated"
   },
   {
@@ -100,7 +52,7 @@
     "price": 79,
     "link": "/en/men/all-men/board-shorts-toroe-painted-palmtrees-black-black",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8371_f122fdd631-dedicated_ss23_dag-2_3391_2-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.246Z",
+    "date": "2023-03-19T22:51:12.170Z",
     "brand": "Dedicated"
   },
   {
@@ -108,7 +60,71 @@
     "price": 79,
     "link": "/en/men/all-men/board-shorts-toroe-ditsy-sun-copper-brown-copper-brown",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8370_c637db63b8-dedicated_ss23_dag-41408-2-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.247Z",
+    "date": "2023-03-19T22:51:12.171Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "T-shirt Stockholm Newman White",
+    "price": 39,
+    "link": "/en/men/all-men/t-shirt-stockholm-newman-white-white",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8459_9984fd4420-dedicated_ss23_dag-602453-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.171Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Shirt Marstrand Zebra Blue",
+    "price": 89,
+    "link": "/en/men/all-men/shirt-marstrand-zebra-blue-blue",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8348_0d2ebed6de-dedicated_ss23_dag-41935-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.171Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Shirt Marstrand Palm Leaves Green",
+    "price": 89,
+    "link": "/en/men/all-men/shirt-marstrand-palm-leaves-green-green",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8347_2445ab0c42-dedicated_ss23_dag1_1440-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.172Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "T-shirt Stockholm No Soup White",
+    "price": 39,
+    "link": "/en/men/all-men/t-shirt-stockholm-no-soup-white-white",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8460_3dc466f5cb-dedicated_ss23_dag-600341-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.172Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "T-shirt Stockholm Kramer Black",
+    "price": 39,
+    "link": "/en/men/all-men/t-shirt-stockholm-kramer-black-black",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8454_7fb5bb6f79-dedicated_ss23_dag-2_5064-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.172Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Soft Cap Seinfeld Logo Black",
+    "price": 39,
+    "link": "/en/men/all-men/soft-cap-seinfeld-logo-black-black",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8781_fc0b8afb3b-21159_black_064-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.172Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Board Shorts Toroe Black",
+    "price": 79,
+    "link": "/en/men/all-men/board-shorts-toroe-black-black",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8369_9e2a0f3513-dedicated_ss23_dag-601492-2-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.173Z",
+    "brand": "Dedicated"
+  },
+  {
+    "name": "Board Shorts Toroe Big Leaf Duck Green",
+    "price": 79,
+    "link": "/en/men/all-men/board-shorts-toroe-big-leaf-duck-green-duck-green",
+    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8368_a0b8fd7a84-dedicated_ss23_dag-41466-2-ded-standard.jpg",
+    "date": "2023-03-19T22:51:12.173Z",
     "brand": "Dedicated"
   },
   {
@@ -116,7 +132,7 @@
     "price": 89,
     "link": "/en/men/all-men/pants-klitmoeller-work-stripe-dark-blue-dark-blue",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8387_bf73ff7454-dedicated_ss23_dag-5_ii00558-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.247Z",
+    "date": "2023-03-19T22:51:12.173Z",
     "brand": "Dedicated"
   },
   {
@@ -124,7 +140,7 @@
     "price": 99,
     "link": "/en/men/all-men/sweatshirt-malmoe-sun-emb-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8424_da74e654c7-dedicated_ss23_dag-602564-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.247Z",
+    "date": "2023-03-19T22:51:12.173Z",
     "brand": "Dedicated"
   },
   {
@@ -132,7 +148,7 @@
     "price": 79,
     "link": "/en/men/all-men/sweatshirt-malmoe-lawn-chair-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8419_fb0b285327-dedicated_ss23_dag-54105-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.247Z",
+    "date": "2023-03-19T22:51:12.174Z",
     "brand": "Dedicated"
   },
   {
@@ -140,7 +156,7 @@
     "price": 79,
     "link": "/en/men/all-men/sweatshirt-malmoe-lawn-chair-black-black",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8418_13c9c702bd-dedicated_ss23_dag-42977-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.248Z",
+    "date": "2023-03-19T22:51:12.174Z",
     "brand": "Dedicated"
   },
   {
@@ -148,7 +164,7 @@
     "price": 89,
     "link": "/en/men/all-men/sweatshirt-malmoe-lawn-chair-aop-charcoal-forged-iron",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8417_75f833fbfd-dedicated_ss23_dag-2_6217-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.248Z",
+    "date": "2023-03-19T22:51:12.174Z",
     "brand": "Dedicated"
   },
   {
@@ -156,7 +172,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-brantevik-work-stripe-dark-blue-dark-blue",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8399_fcc357c7fd-dedicated_ss23_dag-600882-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.248Z",
+    "date": "2023-03-19T22:51:12.175Z",
     "brand": "Dedicated"
   },
   {
@@ -164,7 +180,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-brantevik-stripe-multi-color-multi-color",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8398_446dc7dace-dedicated_ss23_dag-3_8930-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.248Z",
+    "date": "2023-03-19T22:51:12.175Z",
     "brand": "Dedicated"
   },
   {
@@ -172,7 +188,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-brantevik-navy-black-iris",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8397_e0e80b766f-dedicated_ss23_dag-43309-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.249Z",
+    "date": "2023-03-19T22:51:12.175Z",
     "brand": "Dedicated"
   },
   {
@@ -180,7 +196,7 @@
     "price": 89,
     "link": "/en/men/all-men/shirt-brantevik-cashmere-pink-cashmere-rose",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8396_91be82e90c-dedicated_ss23_dag-42505-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.249Z",
+    "date": "2023-03-19T22:51:12.175Z",
     "brand": "Dedicated"
   },
   {
@@ -188,7 +204,7 @@
     "price": 89,
     "link": "/en/men/all-men/hoodie-falun-lawn-chair-black-black",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8379_eb306ec82e-dedicated_ss23_dag-2_5240-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.249Z",
+    "date": "2023-03-19T22:51:12.175Z",
     "brand": "Dedicated"
   },
   {
@@ -196,7 +212,7 @@
     "price": 99,
     "link": "/en/men/all-men/hoodie-falun-lawn-chair-aop-charcoal-forged-iron",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8378_0eec8ba426-dedicated_ss23_dag-2_6237-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.250Z",
+    "date": "2023-03-19T22:51:12.176Z",
     "brand": "Dedicated"
   },
   {
@@ -204,7 +220,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-brush-waves-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8447_0e4f41302f-dedicated_ss23_dag-3_6788-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.250Z",
+    "date": "2023-03-19T22:51:12.176Z",
     "brand": "Dedicated"
   },
   {
@@ -212,7 +228,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-brush-waves-logo-oat-white-rainy-day",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8446_e7ec7ff7ea-dedicated_ss23_dag-3_8770-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.250Z",
+    "date": "2023-03-19T22:51:12.176Z",
     "brand": "Dedicated"
   },
   {
@@ -220,7 +236,7 @@
     "price": 99,
     "link": "/en/men/all-men/pants-sollentuna-black-20855",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8391_979f804221-dedicated_ss23_dag-41789-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.250Z",
+    "date": "2023-03-19T22:51:12.176Z",
     "brand": "Dedicated"
   },
   {
@@ -228,7 +244,7 @@
     "price": 99,
     "link": "/en/men/all-men/pants-sollentuna-beige-beige",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8390_6d27867332-dedicated_ss23_dag-2_5626-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.250Z",
+    "date": "2023-03-19T22:51:12.177Z",
     "brand": "Dedicated"
   },
   {
@@ -236,7 +252,7 @@
     "price": 89,
     "link": "/en/men/all-men/pants-klitmoeller-navy-black-iris",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8386_5462bf59c1-dedicated_ss23_dag-43327-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.251Z",
+    "date": "2023-03-19T22:51:12.177Z",
     "brand": "Dedicated"
   },
   {
@@ -244,7 +260,7 @@
     "price": 79,
     "link": "/en/men/all-men/chino-shorts-nacka-grey-tornado",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8376_649ea693a7-dedicated_ss23_dag-601530-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.251Z",
+    "date": "2023-03-19T22:51:12.177Z",
     "brand": "Dedicated"
   },
   {
@@ -252,7 +268,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-wave-sun-white-white",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8469_b7ec159031-dedicated_ss23_dag1_440-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.251Z",
+    "date": "2023-03-19T22:51:12.177Z",
     "brand": "Dedicated"
   },
   {
@@ -260,7 +276,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-paper-cut-surfboards-white-white",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8464_6cc50d1c23-dedicated_ss23_dag-601187-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.251Z",
+    "date": "2023-03-19T22:51:12.177Z",
     "brand": "Dedicated"
   },
   {
@@ -268,7 +284,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-paper-cut-surfboards-black-black",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8463_7ae67f0808-dedicated_ss23_dag-42854-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.251Z",
+    "date": "2023-03-19T22:51:12.178Z",
     "brand": "Dedicated"
   },
   {
@@ -276,7 +292,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-palm-row-cashmere-pink-cashmere-rose",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8462_68927742d3-dedicated_ss23_dag1_627-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.252Z",
+    "date": "2023-03-19T22:51:12.178Z",
     "brand": "Dedicated"
   },
   {
@@ -284,7 +300,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-palm-row-black-black",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8461_59ba4c403f-dedicated_ss23_dag-2_4170-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.252Z",
+    "date": "2023-03-19T22:51:12.178Z",
     "brand": "Dedicated"
   },
   {
@@ -292,7 +308,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-lone-surfer-white-white",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8458_f46006374e-dedicated_ss23_dag-3_8661-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.252Z",
+    "date": "2023-03-19T22:51:12.178Z",
     "brand": "Dedicated"
   },
   {
@@ -300,23 +316,7 @@
     "price": 39,
     "link": "/en/men/all-men/t-shirt-stockholm-lawn-chair-white-white",
     "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8457_9f7f388fe9-dedicated_ss23_dag-600819-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.252Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "T-shirt Stockholm Lawn Chair Charcoal",
-    "price": 39,
-    "link": "/en/men/all-men/t-shirt-stockholm-lawn-chair-charcoal-forged-iron",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8456_ea49a09d4f-dedicated_ss23_dag-600457-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.253Z",
-    "brand": "Dedicated"
-  },
-  {
-    "name": "T-shirt Stockholm Lawn Chair AOP Off White",
-    "price": 39,
-    "link": "/en/men/all-men/t-shirt-stockholm-lawn-chair-aop-off-white-whisper-white",
-    "image": "https://tshirtstore.centracdn.net/client/dynamic/images/8455_352ebdc1a9-dedicated_ss23_dag1_376-ded-standard.jpg",
-    "date": "2023-03-13T14:44:28.253Z",
+    "date": "2023-03-19T22:51:12.179Z",
     "brand": "Dedicated"
   },
   {
@@ -324,7 +324,7 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/t-shirt-sport-iconic",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_navy_1_4c3443c0-d990-485d-a22e-450b621f85d1.jpg?v=1668151496&width=533",
-    "date": "2023-03-13T14:44:28.752Z",
+    "date": "2023-03-19T22:51:12.799Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -332,7 +332,7 @@
     "price": 95,
     "link": "https://shop.circlesportswear.com/products/legging-get-in-shape",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_get_in_shape_cherry_red_1.jpg?v=1668581402&width=533",
-    "date": "2023-03-13T14:44:28.753Z",
+    "date": "2023-03-19T22:51:12.801Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -340,7 +340,7 @@
     "price": 69,
     "link": "https://shop.circlesportswear.com/products/short-sport-one-for-all",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_one_for_all_moss_1_2ebdbf23-7ba2-49b9-a3bf-4204b7491beb.jpg?v=1668437268&width=533",
-    "date": "2023-03-13T14:44:28.754Z",
+    "date": "2023-03-19T22:51:12.802Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -348,7 +348,7 @@
     "price": 69,
     "link": "https://shop.circlesportswear.com/products/brassiere-support-me-softly",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_support_me_softly_electric_blue.jpg?v=1666103670&width=533",
-    "date": "2023-03-13T14:44:28.755Z",
+    "date": "2023-03-19T22:51:12.802Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -356,7 +356,7 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/crop-top-smooth-operator",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/crop_top_smooth_operator_sand_1.jpg?v=1666165342&width=533",
-    "date": "2023-03-13T14:44:28.756Z",
+    "date": "2023-03-19T22:51:12.803Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -364,7 +364,7 @@
     "price": 19,
     "link": "https://shop.circlesportswear.com/products/tour-de-cou-linfini",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tour_de_cou_protect_onyx_black_5.jpg?v=1675777486&width=533",
-    "date": "2023-03-13T14:44:28.757Z",
+    "date": "2023-03-19T22:51:12.804Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -372,7 +372,7 @@
     "price": 65,
     "link": "https://shop.circlesportswear.com/products/t-shirt-iconic-manifesto",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_manifesto_lilac_1.jpg?v=1652798657&width=533",
-    "date": "2023-03-13T14:44:28.758Z",
+    "date": "2023-03-19T22:51:12.805Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -380,7 +380,7 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/t-shirt-technique-agility",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_agility_granite_grey_1.jpg?v=1669191822&width=533",
-    "date": "2023-03-13T14:44:28.759Z",
+    "date": "2023-03-19T22:51:12.805Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -388,7 +388,7 @@
     "price": 69,
     "link": "https://shop.circlesportswear.com/products/t-shirt-jim",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_jim_purple_rain_1.jpg?v=1661244864&width=533",
-    "date": "2023-03-13T14:44:28.759Z",
+    "date": "2023-03-19T22:51:12.806Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -396,7 +396,7 @@
     "price": 75,
     "link": "https://shop.circlesportswear.com/products/short-de-sport-femme-back-on-track",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_audace_moss_1.jpg?v=1651253267&width=533",
-    "date": "2023-03-13T14:44:28.760Z",
+    "date": "2023-03-19T22:51:12.806Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -404,7 +404,7 @@
     "price": 95,
     "link": "https://shop.circlesportswear.com/products/legging-ava",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_ava_onyx_black_1.jpg?v=1666182837&width=533",
-    "date": "2023-03-13T14:44:28.761Z",
+    "date": "2023-03-19T22:51:12.807Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -412,7 +412,7 @@
     "price": 79,
     "link": "https://shop.circlesportswear.com/products/brassiere-level-up",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_level_up_cherry_red_1.jpg?v=1668150631&width=533",
-    "date": "2023-03-13T14:44:28.761Z",
+    "date": "2023-03-19T22:51:12.808Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -420,7 +420,7 @@
     "price": 55,
     "link": "https://shop.circlesportswear.com/products/debardeur-sport-get-comfy",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_authentique_sand_1.jpg?v=1668581515&width=533",
-    "date": "2023-03-13T14:44:28.762Z",
+    "date": "2023-03-19T22:51:12.808Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -428,7 +428,7 @@
     "price": 85,
     "link": "https://shop.circlesportswear.com/products/t-shirt-manches-longues-sport-femme",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_motivation_noir_chine_6.jpg?v=1662619662&width=533",
-    "date": "2023-03-13T14:44:28.762Z",
+    "date": "2023-03-19T22:51:12.809Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -436,7 +436,7 @@
     "price": 85,
     "link": "https://shop.circlesportswear.com/products/t-shirt-manches-longues-sport-homme",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_motivation_homme_volcano_black_1.jpg?v=1668674932&width=533",
-    "date": "2023-03-13T14:44:28.763Z",
+    "date": "2023-03-19T22:51:12.809Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -444,7 +444,7 @@
     "price": 75,
     "link": "https://shop.circlesportswear.com/products/short-sport-femme-allure",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_allure_1.jpg?v=1651250742&width=533",
-    "date": "2023-03-13T14:44:28.764Z",
+    "date": "2023-03-19T22:51:12.810Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -452,15 +452,7 @@
     "price": 75,
     "link": "https://shop.circlesportswear.com/products/brassiere-yvette",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/brassiere_yvette_onyx_black_1.jpg?v=1666182928&width=533",
-    "date": "2023-03-13T14:44:28.764Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Short de Sport Get Shorty",
-    "price": 69,
-    "link": "https://shop.circlesportswear.com/products/short-get-shorty",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_get_shorty_onyx_black_1.jpg?v=1668581823&width=533",
-    "date": "2023-03-13T14:44:28.765Z",
+    "date": "2023-03-19T22:51:12.810Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -468,15 +460,15 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/haut-sans-manche-muscle-tee",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_muscle_tee_burgundy_red_1.jpg?v=1669192220&width=533",
-    "date": "2023-03-13T14:44:28.766Z",
+    "date": "2023-03-19T22:51:12.811Z",
     "brand": "Circle Sportswear"
   },
   {
-    "name": "Hoodie Oversize Get Lucky",
-    "price": 149,
-    "link": "https://shop.circlesportswear.com/products/hoodie-get-lucky",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/hoodie_get_lucky_lilac_men_1.jpg?v=1677654434&width=533",
-    "date": "2023-03-13T14:44:28.776Z",
+    "name": "Short de Sport Get Shorty",
+    "price": 69,
+    "link": "https://shop.circlesportswear.com/products/short-get-shorty",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_get_shorty_onyx_black_1.jpg?v=1668581823&width=533",
+    "date": "2023-03-19T22:51:12.811Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -484,7 +476,15 @@
     "price": 22,
     "link": "https://shop.circlesportswear.com/products/chaussettes-de-running-speedy-high",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_HI_lilac_1.jpg?v=1671712742&width=533",
-    "date": "2023-03-13T14:44:28.777Z",
+    "date": "2023-03-19T22:51:12.812Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Hoodie Oversize Get Lucky",
+    "price": 149,
+    "link": "https://shop.circlesportswear.com/products/hoodie-get-lucky",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/hoodie_get_lucky_lilac_men_1.jpg?v=1677654434&width=533",
+    "date": "2023-03-19T22:51:12.828Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -492,7 +492,7 @@
     "price": 129,
     "link": "https://shop.circlesportswear.com/products/jogging-pants-get-lucky",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/jogging_get_lucky_moss_men_1.jpg?v=1677499453&width=533",
-    "date": "2023-03-13T14:44:28.778Z",
+    "date": "2023-03-19T22:51:12.828Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -500,15 +500,7 @@
     "price": 79,
     "link": "https://shop.circlesportswear.com/products/feel-good-long-sleeve-pop",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_feel_good_pop_onyx_black_1.jpg?v=1668490722&width=533",
-    "date": "2023-03-13T14:44:28.778Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Tapis de yoga en liège Rise",
-    "price": 85,
-    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-liege",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapis_liege_1.jpg?v=1654615724&width=533",
-    "date": "2023-03-13T14:44:28.779Z",
+    "date": "2023-03-19T22:51:12.829Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -516,7 +508,15 @@
     "price": 139,
     "link": "https://shop.circlesportswear.com/products/sweat-femme-get-lucky",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/sweat_get_lucky_femme_navy_2_0391161e-15ad-4465-8e30-4f9b305ff9ac.jpg?v=1668594734&width=533",
-    "date": "2023-03-13T14:44:28.779Z",
+    "date": "2023-03-19T22:51:12.829Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Tapis de yoga en liège Rise",
+    "price": 85,
+    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-liege",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapis_liege_1.jpg?v=1654615724&width=533",
+    "date": "2023-03-19T22:51:12.830Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -524,7 +524,7 @@
     "price": 95,
     "link": "https://shop.circlesportswear.com/products/legging-de-running-homme-men-in-tights",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_men_in_tights_moss_1.jpg?v=1678700505&width=533",
-    "date": "2023-03-13T14:44:28.780Z",
+    "date": "2023-03-19T22:51:12.830Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -532,7 +532,7 @@
     "price": 20,
     "link": "https://shop.circlesportswear.com/products/gourde-aluminium-protect",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourde_aluminium_750_ml_1.jpg?v=1651263653&width=533",
-    "date": "2023-03-13T14:44:28.780Z",
+    "date": "2023-03-19T22:51:12.830Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -540,7 +540,7 @@
     "price": 65,
     "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-iconic-pop",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_pop_navy_women_1.jpg?v=1676993264&width=533",
-    "date": "2023-03-13T14:44:28.781Z",
+    "date": "2023-03-19T22:51:12.831Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -548,15 +548,7 @@
     "price": 10,
     "link": "https://shop.circlesportswear.com/products/gourde-en-plastique-recycle",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourdeplastique_rose_1.jpg?v=1652795609&width=533",
-    "date": "2023-03-13T14:44:28.781Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Short de Compression Hit The Road",
-    "price": 75,
-    "link": "https://shop.circlesportswear.com/products/short-de-compression-hit-the-road",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/biker_hit_the_road_moss_1.jpg?v=1668581684&width=533",
-    "date": "2023-03-13T14:44:28.782Z",
+    "date": "2023-03-19T22:51:12.831Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -564,15 +556,15 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-femme-get-ready",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_moss_1_fd059d81-13c2-49e7-9752-b875256085b3.jpg?v=1669193098&width=533",
-    "date": "2023-03-13T14:44:28.782Z",
+    "date": "2023-03-19T22:51:12.831Z",
     "brand": "Circle Sportswear"
   },
   {
-    "name": "Tapis de yoga recyclé",
-    "price": 110,
-    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-recycle",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapisyoga_1.jpg?v=1651252529&width=533",
-    "date": "2023-03-13T14:44:28.783Z",
+    "name": "Short de Compression Hit The Road",
+    "price": 75,
+    "link": "https://shop.circlesportswear.com/products/short-de-compression-hit-the-road",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/biker_hit_the_road_moss_1.jpg?v=1668581684&width=533",
+    "date": "2023-03-19T22:51:12.832Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -580,7 +572,15 @@
     "price": 19,
     "link": "https://shop.circlesportswear.com/products/chaussettes-de-running-speedy-low",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/SPEEDY_LO_navy_1_8a7a945c-9d4e-4c10-badb-edec4ae5f2b8.jpg?v=1671724740&width=533",
-    "date": "2023-03-13T14:44:28.783Z",
+    "date": "2023-03-19T22:51:12.832Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Tapis de yoga recyclé",
+    "price": 110,
+    "link": "https://shop.circlesportswear.com/products/tapis-de-yoga-recycle",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tapisyoga_1.jpg?v=1651252529&width=533",
+    "date": "2023-03-19T22:51:12.832Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -588,7 +588,7 @@
     "price": 59,
     "link": "https://shop.circlesportswear.com/products/t-shirt-de-sport-get-ready-quick-dry",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_get_ready_quick_dry_granite_grey_1.jpg?v=1669192775&width=533",
-    "date": "2023-03-13T14:44:28.784Z",
+    "date": "2023-03-19T22:51:12.833Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -596,7 +596,7 @@
     "price": 11,
     "link": "https://shop.circlesportswear.com/products/gourde-en-plastique-recycle-sunrise-bleue",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourdeplastique_bleue_1_4905c4d6-ed7e-46fe-8abc-b546570e1ca2.jpg?v=1654607034&width=533",
-    "date": "2023-03-13T14:44:28.784Z",
+    "date": "2023-03-19T22:51:12.833Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -604,15 +604,7 @@
     "price": 19,
     "link": "https://shop.circlesportswear.com/products/le-tour-de-cou-protect-quick-dry",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/tour_de_cou_protect_granite_grey_1.jpg?v=1666338441&width=533",
-    "date": "2023-03-13T14:44:28.785Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Legging Get in Shape 53",
-    "price": 89,
-    "link": "https://shop.circlesportswear.com/products/legging-get-in-shape-53",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_get_in_shape_53_moss_1.jpg?v=1669193891&width=533",
-    "date": "2023-03-13T14:44:28.785Z",
+    "date": "2023-03-19T22:51:12.833Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -620,7 +612,15 @@
     "price": 25,
     "link": "https://shop.circlesportswear.com/products/copy-of-chaussettes-de-running-stripes",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/chaussettes_stripes_navy_1.jpg?v=1676272372&width=533",
-    "date": "2023-03-13T14:44:28.786Z",
+    "date": "2023-03-19T22:51:12.834Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Legging Get in Shape 53",
+    "price": 89,
+    "link": "https://shop.circlesportswear.com/products/legging-get-in-shape-53",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_get_in_shape_53_moss_1.jpg?v=1669193891&width=533",
+    "date": "2023-03-19T22:51:12.834Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -628,7 +628,7 @@
     "price": 50,
     "link": "https://shop.circlesportswear.com/products/t-shirt-iconic-social",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/t-shirt_iconic_la_montgolfiere_noire_1.jpg?v=1662736374&width=533",
-    "date": "2023-03-13T14:44:28.786Z",
+    "date": "2023-03-19T22:51:12.834Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -636,7 +636,7 @@
     "price": 79,
     "link": "https://shop.circlesportswear.com/products/haut-manches-longues-feel-good",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/manches_longues_feel_good_onyx_black_1.jpg?v=1668579733&width=533",
-    "date": "2023-03-13T14:44:28.786Z",
+    "date": "2023-03-19T22:51:12.835Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -644,23 +644,7 @@
     "price": 55,
     "link": "https://shop.circlesportswear.com/products/debardeur-get-comfy-quick-dry",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_get_comfy_quick_dry_granite_grey_1.jpg?v=1666156510&width=533",
-    "date": "2023-03-13T14:44:28.787Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Débardeur de sport Free Your Mind",
-    "price": 55,
-    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_moss_1_8ef82d45-4065-4e98-85b6-491487e75948.jpg?v=1668675145&width=533",
-    "date": "2023-03-13T14:44:28.788Z",
-    "brand": "Circle Sportswear"
-  },
-  {
-    "name": "Débardeur de sport Free Your Mind Quick Dry",
-    "price": 55,
-    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind-quick-dry",
-    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_quick_dry_granite_grey_1.jpg?v=1668675342&width=533",
-    "date": "2023-03-13T14:44:28.788Z",
+    "date": "2023-03-19T22:51:12.835Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -668,7 +652,23 @@
     "price": 145,
     "link": "https://shop.circlesportswear.com/products/haut-a-manches-longues-homme-flow",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_homme_navy_1.jpg?v=1676463000&width=533",
-    "date": "2023-03-13T14:44:28.789Z",
+    "date": "2023-03-19T22:51:12.835Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Débardeur de sport Free Your Mind",
+    "price": 55,
+    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_moss_1_8ef82d45-4065-4e98-85b6-491487e75948.jpg?v=1668675145&width=533",
+    "date": "2023-03-19T22:51:12.836Z",
+    "brand": "Circle Sportswear"
+  },
+  {
+    "name": "Débardeur de sport Free Your Mind Quick Dry",
+    "price": 55,
+    "link": "https://shop.circlesportswear.com/products/debardeur-de-sport-free-your-mind-quick-dry",
+    "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/debardeur_free_your_mind_quick_dry_granite_grey_1.jpg?v=1668675342&width=533",
+    "date": "2023-03-19T22:51:12.836Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -676,7 +676,7 @@
     "price": 22,
     "link": "https://shop.circlesportswear.com/products/gourde-en-aluminium-sunny",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/gourde_sunny_1.jpg?v=1654606544&width=533",
-    "date": "2023-03-13T14:44:28.789Z",
+    "date": "2023-03-19T22:51:12.836Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -684,7 +684,7 @@
     "price": 119,
     "link": "https://shop.circlesportswear.com/products/short-de-sport-swell",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/short_swell_navy_1.jpg?v=1676389157&width=533",
-    "date": "2023-03-13T14:44:28.789Z",
+    "date": "2023-03-19T22:51:12.837Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -692,7 +692,7 @@
     "price": 145,
     "link": "https://shop.circlesportswear.com/products/haut-a-manches-longues-femme-flow",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/haut_manches_longues_flow_femme_navy_1.jpg?v=1676527028&width=533",
-    "date": "2023-03-13T14:44:28.790Z",
+    "date": "2023-03-19T22:51:12.837Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -700,7 +700,7 @@
     "price": 125,
     "link": "https://shop.circlesportswear.com/products/legging-de-running-femme-lightning",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_femme_onyx_black_1.jpg?v=1676389205&width=533",
-    "date": "2023-03-13T14:44:28.790Z",
+    "date": "2023-03-19T22:51:12.837Z",
     "brand": "Circle Sportswear"
   },
   {
@@ -708,14 +708,14 @@
     "price": 125,
     "link": "https://shop.circlesportswear.com/products/legging-de-running-homme-lightning",
     "image": "//cdn.shopify.com/s/files/1/0271/4114/4649/products/legging_lightning_homme_onyx_black_1.jpg?v=1676389110&width=533",
-    "date": "2023-03-13T14:44:28.791Z",
+    "date": "2023-03-19T22:51:12.838Z",
     "brand": "Circle Sportswear"
   },
   {
     "name": "PULL POLLEN",
     "price": 135,
     "link": "https://www.montlimart.com/pulls/841-pull-pollen-ecru.html#/1-taille-s",
-    "date": "2023-03-13T14:44:30.120Z",
+    "date": "2023-03-19T22:51:13.912Z",
     "brand": "Montlimart"
   },
   {
@@ -723,7 +723,7 @@
     "price": 70,
     "link": "https://www.montlimart.com/t-shirts/849-t-shirt-ligue-bleu-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/2619-category_page/t-shirt-ligue-bleu-clair.jpg",
-    "date": "2023-03-13T14:44:30.120Z",
+    "date": "2023-03-19T22:51:13.912Z",
     "brand": "Montlimart"
   },
   {
@@ -731,7 +731,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/sweats/844-sweat-fusion-bleu-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/2654-category_page/sweat-fusion-bleu-clair.jpg",
-    "date": "2023-03-13T14:44:30.120Z",
+    "date": "2023-03-19T22:51:13.912Z",
     "brand": "Montlimart"
   },
   {
@@ -739,7 +739,7 @@
     "price": 149,
     "link": "https://www.montlimart.com/baskets/750-baskets-impact-camel.html#/8-taille-39",
     "image": "https://www.montlimart.com/2554-category_page/baskets-impact-camel.jpg",
-    "date": "2023-03-13T14:44:30.120Z",
+    "date": "2023-03-19T22:51:13.912Z",
     "brand": "Montlimart"
   },
   {
@@ -747,22 +747,22 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/820-pull-planete-beige.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2569-category_page/pull-planete-beige.jpg",
-    "date": "2023-03-13T14:44:30.121Z",
+    "date": "2023-03-19T22:51:13.912Z",
     "brand": "Montlimart"
   },
   {
     "name": "VESTE ATELIER",
     "price": 150,
     "link": "https://www.montlimart.com/cire-vestes/807-veste-atelier-camel.html#/1-taille-s",
-    "date": "2023-03-13T14:44:30.121Z",
+    "date": "2023-03-19T22:51:13.913Z",
     "brand": "Montlimart"
   },
   {
     "name": "T-SHIRT IDEAL",
-    "price": 60,
+    "price": 55,
     "link": "https://www.montlimart.com/t-shirts/832-t-shirt-ideal-gris-clair.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2627-category_page/t-shirt-ideal-gris-clair.jpg",
-    "date": "2023-03-13T14:44:30.121Z",
+    "date": "2023-03-19T22:51:13.913Z",
     "brand": "Montlimart"
   },
   {
@@ -770,7 +770,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/sweats/854-sweat-ressource-ecru-beige.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2599-category_page/sweat-ressource-ecru-beige.jpg",
-    "date": "2023-03-13T14:44:30.121Z",
+    "date": "2023-03-19T22:51:13.913Z",
     "brand": "Montlimart"
   },
   {
@@ -778,7 +778,7 @@
     "price": 18,
     "link": "https://www.montlimart.com/ceintures-chaussettes/837-chaussettes-tennis-beige.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2640-category_page/chaussettes-tennis-beige.jpg",
-    "date": "2023-03-13T14:44:30.121Z",
+    "date": "2023-03-19T22:51:13.913Z",
     "brand": "Montlimart"
   },
   {
@@ -786,7 +786,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/sweats/855-sweat-monde-marron.html#/1-taille-s",
     "image": "https://www.montlimart.com/2593-category_page/sweat-monde-marron.jpg",
-    "date": "2023-03-13T14:44:30.122Z",
+    "date": "2023-03-19T22:51:13.913Z",
     "brand": "Montlimart"
   },
   {
@@ -794,7 +794,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/842-pull-pollen-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2578-category_page/pull-pollen-kaki.jpg",
-    "date": "2023-03-13T14:44:30.122Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -802,7 +802,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/281-chemise-centre-ville-bleu-carreaux-marron.html#/1-taille-s",
     "image": "https://www.montlimart.com/2213-category_page/chemise-centre-ville-bleu-carreaux-marron.jpg",
-    "date": "2023-03-13T14:44:30.122Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -810,7 +810,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/762-pull-planete-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2371-category_page/pull-planete-marine.jpg",
-    "date": "2023-03-13T14:44:30.122Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -818,7 +818,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/701-boots-montpluie-marine-jacquard.html#/8-taille-39",
     "image": "https://www.montlimart.com/2279-category_page/boots-montpluie-marine-jacquard.jpg",
-    "date": "2023-03-13T14:44:30.122Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -826,7 +826,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/819-pull-planete-ecru.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2572-category_page/pull-planete-ecru.jpg",
-    "date": "2023-03-13T14:44:30.123Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -834,7 +834,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/335-pull-damier-bleu-fonce.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2454-category_page/pull-damier-bleu-fonce.jpg",
-    "date": "2023-03-13T14:44:30.123Z",
+    "date": "2023-03-19T22:51:13.914Z",
     "brand": "Montlimart"
   },
   {
@@ -842,7 +842,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/484-chemise-montlimart-bleu-carreaux-marron.html#/1-taille-s",
     "image": "https://www.montlimart.com/2305-category_page/chemise-montlimart-bleu-carreaux-marron.jpg",
-    "date": "2023-03-13T14:44:30.123Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -850,7 +850,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/848-t-shirt-citadin-blanc.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2651-category_page/t-shirt-citadin-blanc.jpg",
-    "date": "2023-03-13T14:44:30.123Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -858,7 +858,7 @@
     "price": 130,
     "link": "https://www.montlimart.com/pulls/835-pull-variation-kaki.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2581-category_page/pull-variation-kaki.jpg",
-    "date": "2023-03-13T14:44:30.123Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -866,7 +866,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/337-pull-damier-ecru.html#/1-taille-s",
     "image": "https://www.montlimart.com/2459-category_page/pull-damier-ecru.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -874,7 +874,7 @@
     "price": 130,
     "link": "https://www.montlimart.com/pulls/764-pull-evolution-camel.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2227-category_page/pull-evolution-camel.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -882,7 +882,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/ceintures-chaussettes/796-ceinture-kilometre-vert-foret.html#/132-taille-85",
     "image": "https://www.montlimart.com/2632-category_page/ceinture-kilometre-vert-foret.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.915Z",
     "brand": "Montlimart"
   },
   {
@@ -890,7 +890,7 @@
     "price": 170,
     "link": "https://www.montlimart.com/vetements/783-impermeable-averse-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2251-category_page/impermeable-averse-kaki.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -898,7 +898,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/700-boots-montpluie-kaki-chevrons.html#/8-taille-39",
     "image": "https://www.montlimart.com/2277-category_page/boots-montpluie-kaki-chevrons.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -906,7 +906,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/bas/782-jean-thomas-brut.html#/137-taille-28",
     "image": "https://www.montlimart.com/2326-category_page/jean-thomas-brut.jpg",
-    "date": "2023-03-13T14:44:30.124Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -914,7 +914,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/533-boots-montpluie-noir-chevrons.html#/8-taille-39",
     "image": "https://www.montlimart.com/1232-category_page/boots-montpluie-noir-chevrons.jpg",
-    "date": "2023-03-13T14:44:30.125Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -922,7 +922,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/528-boots-montpluie-cognac-carreaux.html#/8-taille-39",
     "image": "https://www.montlimart.com/1483-category_page/boots-montpluie-cognac-carreaux.jpg",
-    "date": "2023-03-13T14:44:30.125Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -930,7 +930,7 @@
     "price": 70,
     "link": "https://www.montlimart.com/t-shirts/780-t-shirt-symbole-kaki-clair.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2424-category_page/t-shirt-symbole-kaki-clair.jpg",
-    "date": "2023-03-13T14:44:30.125Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -938,7 +938,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/799-chaussettes-montlisocks-kaki-clair.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2638-category_page/chaussettes-montlisocks-kaki-clair.jpg",
-    "date": "2023-03-13T14:44:30.125Z",
+    "date": "2023-03-19T22:51:13.916Z",
     "brand": "Montlimart"
   },
   {
@@ -946,7 +946,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/648-chemise-surtout-anthracite.html#/1-taille-s",
     "image": "https://www.montlimart.com/2388-category_page/chemise-surtout-anthracite.jpg",
-    "date": "2023-03-13T14:44:30.125Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -954,7 +954,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/t-shirts/718-t-shirt-respect-noir.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2416-category_page/t-shirt-respect-noir.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -962,7 +962,7 @@
     "price": 45,
     "link": "https://www.montlimart.com/ceintures-chaussettes/690-chaussettes-coffret-montlisocks-kaki-beige-anthra.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2557-category_page/chaussettes-coffret-montlisocks-kaki-beige-anthra.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -970,7 +970,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/826-t-shirt-essaim-vert.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2623-category_page/t-shirt-essaim-vert.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -978,7 +978,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/sweats/846-sweat-fusion-vert.html#/1-taille-s",
     "image": "https://www.montlimart.com/2588-category_page/sweat-fusion-vert.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -986,7 +986,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/823-t-shirt-initial-beige.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2629-category_page/t-shirt-initial-beige.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.917Z",
     "brand": "Montlimart"
   },
   {
@@ -994,7 +994,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/753-pull-libre-gris-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/2337-category_page/pull-libre-gris-clair.jpg",
-    "date": "2023-03-13T14:44:30.126Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
@@ -1002,7 +1002,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/chemises/817-chemise-centre-ville-rayures-blanc-bleu.html#/1-taille-s",
     "image": "https://www.montlimart.com/2612-category_page/chemise-centre-ville-rayures-blanc-bleu.jpg",
-    "date": "2023-03-13T14:44:30.127Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
@@ -1010,15 +1010,15 @@
     "price": 55,
     "link": "https://www.montlimart.com/ceintures-chaussettes/401-ceinture-kilometre-marine.html#/131-taille-105",
     "image": "https://www.montlimart.com/1698-category_page/ceinture-kilometre-marine.jpg",
-    "date": "2023-03-13T14:44:30.127Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
     "name": "T-SHIRT IDEAL",
-    "price": 60,
+    "price": 55,
     "link": "https://www.montlimart.com/t-shirts/776-t-shirt-ideal-bleu-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2404-category_page/t-shirt-ideal-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.127Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
@@ -1026,14 +1026,15 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/521-chaussettes-montlisocks-marine.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1269-category_page/chaussettes-montlisocks-marine.jpg",
-    "date": "2023-03-13T14:44:30.127Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
     "name": "PULL DAMIER",
     "price": 140,
     "link": "https://www.montlimart.com/pulls/814-pull-damier-bleu-clair.html#/18-taille-xs",
-    "date": "2023-03-13T14:44:30.127Z",
+    "image": "https://www.montlimart.com/2565-category_page/pull-damier-bleu-clair.jpg",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
@@ -1041,7 +1042,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/532-boots-montpluie-noir.html#/10-taille-40",
     "image": "https://www.montlimart.com/969-category_page/boots-montpluie-noir.jpg",
-    "date": "2023-03-13T14:44:30.127Z",
+    "date": "2023-03-19T22:51:13.918Z",
     "brand": "Montlimart"
   },
   {
@@ -1049,7 +1050,7 @@
     "price": 130,
     "link": "https://www.montlimart.com/pulls/836-pull-variation-rouge.html#/1-taille-s",
     "image": "https://www.montlimart.com/2584-category_page/pull-variation-rouge.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1057,7 +1058,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/sweats/856-sweat-monde-rouge.html#/1-taille-s",
     "image": "https://www.montlimart.com/2596-category_page/sweat-monde-rouge.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1065,7 +1066,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/827-t-shirt-essaim-rouge.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2620-category_page/t-shirt-essaim-rouge.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1073,7 +1074,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/t-shirts/719-t-shirt-respect-vert.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2417-category_page/t-shirt-respect-vert.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1081,7 +1082,7 @@
     "price": 70,
     "link": "https://www.montlimart.com/t-shirts/850-t-shirt-ligue-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2606-category_page/t-shirt-ligue-kaki.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1089,7 +1090,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/ceintures-chaussettes/793-ceinture-kilometre-marron.html#/132-taille-85",
     "image": "https://www.montlimart.com/2294-category_page/ceinture-kilometre-marron.jpg",
-    "date": "2023-03-13T14:44:30.128Z",
+    "date": "2023-03-19T22:51:13.919Z",
     "brand": "Montlimart"
   },
   {
@@ -1097,7 +1098,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/761-pull-planete-kaki-clair.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2369-category_page/pull-planete-kaki-clair.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1105,7 +1106,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/655-chemise-surtout-vert-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/1669-category_page/chemise-surtout-vert-kaki.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1113,7 +1114,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/754-pull-libre-vert.html#/1-taille-s",
     "image": "https://www.montlimart.com/2340-category_page/pull-libre-vert.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1121,7 +1122,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/340-pull-damier-noir.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1470-category_page/pull-damier-noir.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1129,7 +1130,7 @@
     "price": 18,
     "link": "https://www.montlimart.com/ceintures-chaussettes/838-chaussettes-tennis-kaki.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2643-category_page/chaussettes-tennis-kaki.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1137,7 +1138,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/672-pull-veritable-ecru.html#/1-taille-s",
     "image": "https://www.montlimart.com/2464-category_page/pull-veritable-ecru.jpg",
-    "date": "2023-03-13T14:44:30.129Z",
+    "date": "2023-03-19T22:51:13.920Z",
     "brand": "Montlimart"
   },
   {
@@ -1145,7 +1146,7 @@
     "price": 170,
     "link": "https://www.montlimart.com/cire-vestes/784-veste-atelier-velours-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2427-category_page/veste-atelier-velours-kaki.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1153,7 +1154,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/798-chaussettes-montlisocks-beige.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2636-category_page/chaussettes-montlisocks-beige.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1161,7 +1162,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/sweats/715-sweat-mi-temps-rouge.html#/1-taille-s",
     "image": "https://www.montlimart.com/2396-category_page/sweat-mi-temps-rouge.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1169,7 +1170,7 @@
     "price": 70,
     "link": "https://www.montlimart.com/t-shirts/781-t-shirt-joueur-bleu-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/2411-category_page/t-shirt-joueur-bleu-clair.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1177,7 +1178,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/495-chemise-montlimart-ecru.html#/1-taille-s",
     "image": "https://www.montlimart.com/2309-category_page/chemise-montlimart-ecru.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1185,7 +1186,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/341-pull-damier-rouge.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2225-category_page/pull-damier-rouge.jpg",
-    "date": "2023-03-13T14:44:30.130Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1193,7 +1194,7 @@
     "price": 90,
     "link": "https://www.montlimart.com/polos/790-polo-partage-marine.html#/1-taille-s",
     "image": "https://www.montlimart.com/2198-category_page/polo-partage-marine.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.921Z",
     "brand": "Montlimart"
   },
   {
@@ -1201,7 +1202,7 @@
     "price": 100,
     "link": "https://www.montlimart.com/sweats/773-sweat-campus-vert.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2234-category_page/sweat-campus-vert.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1209,7 +1210,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/531-boots-montpluie-marron-carreaux.html#/8-taille-39",
     "image": "https://www.montlimart.com/1486-category_page/boots-montpluie-marron-carreaux.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1217,7 +1218,7 @@
     "price": 120,
     "link": "https://www.montlimart.com/sweats/771-sweat-energie-ecru-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2240-category_page/sweat-energie-ecru-kaki.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1225,7 +1226,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/652-chemise-surtout-gris.html#/1-taille-s",
     "image": "https://www.montlimart.com/2391-category_page/chemise-surtout-gris.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1233,7 +1234,7 @@
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/527-boots-montpluie-anthracite.html#/8-taille-39",
     "image": "https://www.montlimart.com/1480-category_page/boots-montpluie-anthracite.jpg",
-    "date": "2023-03-13T14:44:30.131Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1241,7 +1242,7 @@
     "price": 70,
     "link": "https://www.montlimart.com/t-shirts/779-t-shirt-symbole-bleu-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2422-category_page/t-shirt-symbole-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.922Z",
     "brand": "Montlimart"
   },
   {
@@ -1249,7 +1250,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/342-pull-damier-vert.html#/1-taille-s",
     "image": "https://www.montlimart.com/1475-category_page/pull-damier-vert.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1257,7 +1258,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/sweats/714-sweat-climat-vert-sapin.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2527-category_page/sweat-climat-vert-sapin.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1265,7 +1266,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/ceintures-chaussettes/402-ceinture-kilometre-vert.html#/131-taille-105",
     "image": "https://www.montlimart.com/1702-category_page/ceinture-kilometre-vert.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1273,7 +1274,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/t-shirts/620-t-shirt-respect-bleu-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1624-category_page/t-shirt-respect-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1281,7 +1282,7 @@
     "price": 100,
     "link": "https://www.montlimart.com/chemises/282-chemise-centre-ville-bleu-chine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1639-category_page/chemise-centre-ville-bleu-chine.jpg",
-    "date": "2023-03-13T14:44:30.132Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1289,7 +1290,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/519-chaussettes-montlisocks-gris-clair.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1261-category_page/chaussettes-montlisocks-gris-clair.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.923Z",
     "brand": "Montlimart"
   },
   {
@@ -1297,7 +1298,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/ceintures-chaussettes/693-ceinture-kilometre-noir.html#/131-taille-105",
     "image": "https://www.montlimart.com/2032-category_page/ceinture-kilometre-noir.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1305,7 +1306,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/sweats/320-sweat-climat-moutarde.html#/1-taille-s",
     "image": "https://www.montlimart.com/2480-category_page/sweat-climat-moutarde.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1313,7 +1314,7 @@
     "price": 150,
     "link": "https://www.montlimart.com/chemises/628-chemise-saint-pierre-anthracite.html#/1-taille-s",
     "image": "https://www.montlimart.com/1656-category_page/chemise-saint-pierre-anthracite.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1321,7 +1322,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/t-shirts/622-t-shirt-respect-terracotta.html#/1-taille-s",
     "image": "https://www.montlimart.com/1632-category_page/t-shirt-respect-terracotta.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1329,7 +1330,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/675-pull-veritable-terracotta.html#/1-taille-s",
     "image": "https://www.montlimart.com/2476-category_page/pull-veritable-terracotta.jpg",
-    "date": "2023-03-13T14:44:30.133Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1337,7 +1338,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/674-pull-veritable-noir.html#/1-taille-s",
     "image": "https://www.montlimart.com/2377-category_page/pull-veritable-noir.jpg",
-    "date": "2023-03-13T14:44:30.134Z",
+    "date": "2023-03-19T22:51:13.924Z",
     "brand": "Montlimart"
   },
   {
@@ -1345,7 +1346,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/accessoires/689-chaussettes-montlisocks-noir.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2182-category_page/chaussettes-montlisocks-noir.jpg",
-    "date": "2023-03-13T14:44:30.134Z",
+    "date": "2023-03-19T22:51:13.925Z",
     "brand": "Montlimart"
   },
   {
@@ -1353,7 +1354,7 @@
     "price": 130,
     "link": "https://www.montlimart.com/pulls/765-pull-evolution-ecru.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2231-category_page/pull-evolution-ecru.jpg",
-    "date": "2023-03-13T14:44:30.134Z",
+    "date": "2023-03-19T22:51:13.925Z",
     "brand": "Montlimart"
   },
   {
@@ -1361,7 +1362,7 @@
     "price": 17,
     "link": "https://www.montlimart.com/ceintures-chaussettes/751-chaussettes-chevron-bordeaux-marine.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2297-category_page/chaussettes-chevron-bordeaux-marine.jpg",
-    "date": "2023-03-13T14:44:30.134Z",
+    "date": "2023-03-19T22:51:13.925Z",
     "brand": "Montlimart"
   },
   {
@@ -1369,7 +1370,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/367-t-shirt-essaim-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/2444-category_page/t-shirt-essaim-blanc.jpg",
-    "date": "2023-03-13T14:44:30.134Z",
+    "date": "2023-03-19T22:51:13.925Z",
     "brand": "Montlimart"
   },
   {
@@ -1377,7 +1378,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/t-shirts/621-t-shirt-respect-gris-clair.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1628-category_page/t-shirt-respect-gris-clair.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.925Z",
     "brand": "Montlimart"
   },
   {
@@ -1385,7 +1386,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/671-pull-veritable-bleu-marine.html#/1-taille-s",
     "image": "https://www.montlimart.com/2460-category_page/pull-veritable-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1393,7 +1394,7 @@
     "price": 130,
     "link": "https://www.montlimart.com/pulls/766-pull-evolution-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2258-category_page/pull-evolution-marine.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1401,7 +1402,7 @@
     "price": 100,
     "link": "https://www.montlimart.com/vetements/283-chemise-centre-ville-noir-chine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1641-category_page/chemise-centre-ville-noir-chine.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1409,7 +1410,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/717-t-shirt-essaim-anthracite.html#/1-taille-s",
     "image": "https://www.montlimart.com/2248-category_page/t-shirt-essaim-anthracite.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1417,7 +1418,7 @@
     "price": 115,
     "link": "https://www.montlimart.com/sweats/343-sweat-detente-beige.html#/1-taille-s",
     "image": "https://www.montlimart.com/1934-category_page/sweat-detente-beige.jpg",
-    "date": "2023-03-13T14:44:30.135Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1425,7 +1426,7 @@
     "price": 100,
     "link": "https://www.montlimart.com/homewear/795-jogging-moelleux-kaki.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2333-category_page/jogging-moelleux-kaki.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.926Z",
     "brand": "Montlimart"
   },
   {
@@ -1433,7 +1434,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/ceintures-chaussettes/738-chaussettes-semainier-montlisock-multicolore.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2552-category_page/chaussettes-semainier-montlisock-multicolore.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
@@ -1441,7 +1442,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/511-chemise-montlimart-vert-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2313-category_page/chemise-montlimart-vert-kaki.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
@@ -1449,7 +1450,7 @@
     "price": 115,
     "link": "https://www.montlimart.com/sweats/344-sweat-detente-gris-chine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1720-category_page/sweat-detente-gris-chine.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
@@ -1457,7 +1458,7 @@
     "price": 45,
     "link": "https://www.montlimart.com/ceintures-chaussettes/328-chaussettes-coffret-montlisocks-gris-vert-marine.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1464-category_page/chaussettes-coffret-montlisocks-gris-vert-marine.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
@@ -1465,14 +1466,15 @@
     "price": 45,
     "link": "https://www.montlimart.com/ceintures-chaussettes/329-chaussettes-coffret-montlisocks-kaki-bordeaux-anthra.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1467-category_page/chaussettes-coffret-montlisocks-kaki-bordeaux-anthra.jpg",
-    "date": "2023-03-13T14:44:30.136Z",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
     "name": "BOOTS MONTPLUIE",
     "price": 85,
     "link": "https://www.montlimart.com/boots-de-pluie/702-boots-montpluie-noir-british.html#/8-taille-39",
-    "date": "2023-03-13T14:44:30.137Z",
+    "image": "https://www.montlimart.com/2283-category_page/boots-montpluie-noir-british.jpg",
+    "date": "2023-03-19T22:51:13.927Z",
     "brand": "Montlimart"
   },
   {
@@ -1480,7 +1482,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/778-t-shirt-initial-vert.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2408-category_page/t-shirt-initial-vert.jpg",
-    "date": "2023-03-13T14:44:30.137Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1488,7 +1490,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/sweats/318-sweat-climat-kaki.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2488-category_page/sweat-climat-kaki.jpg",
-    "date": "2023-03-13T14:44:30.137Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1496,7 +1498,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/520-chaussettes-montlisocks-kaki.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1266-category_page/chaussettes-montlisocks-kaki.jpg",
-    "date": "2023-03-13T14:44:30.137Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1504,7 +1506,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/sweats/450-sweat-mi-temps-camel.html#/1-taille-s",
     "image": "https://www.montlimart.com/1257-category_page/sweat-mi-temps-camel.jpg",
-    "date": "2023-03-13T14:44:30.137Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1512,7 +1514,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/651-chemise-surtout-bordeaux.html#/1-taille-s",
     "image": "https://www.montlimart.com/1665-category_page/chemise-surtout-bordeaux.jpg",
-    "date": "2023-03-13T14:44:30.137Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1520,7 +1522,7 @@
     "price": null,
     "link": "https://www.montlimart.com/vetements/742-e-carte-cadeau-carte-cadeau.html",
     "image": "https://www.montlimart.com/2657-category_page/e-carte-cadeau-carte-cadeau.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.928Z",
     "brand": "Montlimart"
   },
   {
@@ -1528,7 +1530,7 @@
     "price": 110,
     "link": "https://www.montlimart.com/chemises/650-chemise-surtout-bleu-marine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1661-category_page/chemise-surtout-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1536,7 +1538,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/sweats/316-sweat-climat-anthracite.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1597-category_page/sweat-climat-anthracite.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1544,7 +1546,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/368-t-shirt-essaim-bleu-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1609-category_page/t-shirt-essaim-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1552,7 +1554,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/477-chemise-montlimart-beige.html#/1-taille-s",
     "image": "https://www.montlimart.com/1645-category_page/chemise-montlimart-beige.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1560,7 +1562,7 @@
     "price": 80,
     "link": "https://www.montlimart.com/polos/697-polo-record-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/2193-category_page/polo-record-blanc.jpg",
-    "date": "2023-03-13T14:44:30.138Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1568,7 +1570,7 @@
     "price": 45,
     "link": "https://www.montlimart.com/ceintures-chaussettes/789-chaussettes-coffret-cotele-marine-gris-bordeaux.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/2529-category_page/chaussettes-coffret-cotele-marine-gris-bordeaux.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.929Z",
     "brand": "Montlimart"
   },
   {
@@ -1576,7 +1578,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/chemises/263-chemise-centre-bourg-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/1900-category_page/chemise-centre-bourg-blanc.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1584,7 +1586,7 @@
     "price": 150,
     "link": "https://www.montlimart.com/chemises/627-chemise-saint-paul-vert-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/1651-category_page/chemise-saint-paul-vert-rayures.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1592,7 +1594,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/673-pull-veritable-kaki.html#/1-taille-s",
     "image": "https://www.montlimart.com/2471-category_page/pull-veritable-kaki.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1600,7 +1602,7 @@
     "price": 140,
     "link": "https://www.montlimart.com/pulls/334-pull-damier-beige.html#/1-taille-s",
     "image": "https://www.montlimart.com/1349-category_page/pull-damier-beige.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1608,7 +1610,7 @@
     "price": 135,
     "link": "https://www.montlimart.com/pulls/763-pull-planete-marron.html#/1-taille-s",
     "image": "https://www.montlimart.com/2375-category_page/pull-planete-marron.jpg",
-    "date": "2023-03-13T14:44:30.139Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1616,7 +1618,7 @@
     "price": 115,
     "link": "https://www.montlimart.com/chemises/284-chemise-centre-ville-taupe-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/1896-category_page/chemise-centre-ville-taupe-rayures.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1624,7 +1626,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/716-t-shirt-icone-marron.html#/1-taille-s",
     "image": "https://www.montlimart.com/2259-category_page/t-shirt-icone-marron.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.930Z",
     "brand": "Montlimart"
   },
   {
@@ -1632,7 +1634,7 @@
     "price": 65,
     "link": "https://www.montlimart.com/t-shirts/695-t-shirt-blason-gris-chine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1821-category_page/t-shirt-blason-gris-chine.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1640,7 +1642,7 @@
     "price": 155,
     "link": "https://www.montlimart.com/chemises/639-chemise-saint-remy-bleu-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/1912-category_page/chemise-saint-remy-bleu-clair.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1648,7 +1650,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/485-chemise-montlimart-bleu-clair.html#/1-taille-s",
     "image": "https://www.montlimart.com/178-category_page/chemise-montlimart-bleu-clair.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1656,7 +1658,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/chemises/492-chemise-montlimart-bleu-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/1906-category_page/chemise-montlimart-bleu-rayures.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1664,7 +1666,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/polos/538-polo-montpolo-marine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2194-category_page/polo-montpolo-marine.jpg",
-    "date": "2023-03-13T14:44:30.140Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1672,7 +1674,7 @@
     "price": 145,
     "link": "https://www.montlimart.com/chemises/629-chemise-saint-pierre-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/2434-category_page/chemise-saint-pierre-blanc.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.931Z",
     "brand": "Montlimart"
   },
   {
@@ -1680,7 +1682,7 @@
     "price": 15,
     "link": "https://www.montlimart.com/ceintures-chaussettes/518-chaussettes-montlisocks-bordeaux.html#/112-taille-39_42",
     "image": "https://www.montlimart.com/1341-category_page/chaussettes-montlisocks-bordeaux.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1688,7 +1690,7 @@
     "price": 65,
     "link": "https://www.montlimart.com/t-shirts/694-t-shirt-blason-bleu-marine.html#/1-taille-s",
     "image": "https://www.montlimart.com/1827-category_page/t-shirt-blason-bleu-marine.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1696,7 +1698,7 @@
     "price": 55,
     "link": "https://www.montlimart.com/t-shirts/369-t-shirt-essaim-gris-chine.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1416-category_page/t-shirt-essaim-gris-chine.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1704,7 +1706,7 @@
     "price": 150,
     "link": "https://www.montlimart.com/chemises/630-chemise-saint-pierre-bleu-ciel-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/1918-category_page/chemise-saint-pierre-bleu-ciel-rayures.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1712,7 +1714,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/sweats/317-sweat-climat-argile.html#/1-taille-s",
     "image": "https://www.montlimart.com/2484-category_page/sweat-climat-argile.jpg",
-    "date": "2023-03-13T14:44:30.141Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1720,7 +1722,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/polos/534-polo-montpolo-beige.html#/18-taille-xs",
     "image": "https://www.montlimart.com/2006-category_page/polo-montpolo-beige.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1728,7 +1730,7 @@
     "price": 75,
     "link": "https://www.montlimart.com/polos/535-polo-montpolo-blanc.html#/18-taille-xs",
     "image": "https://www.montlimart.com/1894-category_page/polo-montpolo-blanc.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.932Z",
     "brand": "Montlimart"
   },
   {
@@ -1736,15 +1738,15 @@
     "price": 105,
     "link": "https://www.montlimart.com/vetements/264-chemise-centre-bourg-bleu.html#/1-taille-s",
     "image": "https://www.montlimart.com/74-category_page/chemise-centre-bourg-bleu.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
     "name": "T-SHIRT IDEAL",
-    "price": 60,
+    "price": 55,
     "link": "https://www.montlimart.com/t-shirts/777-t-shirt-ideal-rouge.html#/1-taille-s",
     "image": "https://www.montlimart.com/2405-category_page/t-shirt-ideal-rouge.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
@@ -1752,7 +1754,7 @@
     "price": 95,
     "link": "https://www.montlimart.com/chemises/478-chemise-montlimart-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/169-category_page/chemise-montlimart-blanc.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
@@ -1760,7 +1762,7 @@
     "price": 105,
     "link": "https://www.montlimart.com/chemises/488-chemise-montlimart-bleu-fines-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/2071-category_page/chemise-montlimart-bleu-fines-rayures.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
@@ -1768,7 +1770,7 @@
     "price": 150,
     "link": "https://www.montlimart.com/chemises/635-chemise-saint-pierre-rouge-carreaux.html#/1-taille-s",
     "image": "https://www.montlimart.com/1923-category_page/chemise-saint-pierre-rouge-carreaux.jpg",
-    "date": "2023-03-13T14:44:30.142Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
@@ -1776,7 +1778,7 @@
     "price": 160,
     "link": "https://www.montlimart.com/chemises/641-chemise-saint-remy-marine-rayures.html#/1-taille-s",
     "image": "https://www.montlimart.com/1290-category_page/chemise-saint-remy-marine-rayures.jpg",
-    "date": "2023-03-13T14:44:30.143Z",
+    "date": "2023-03-19T22:51:13.933Z",
     "brand": "Montlimart"
   },
   {
@@ -1784,7 +1786,7 @@
     "price": 155,
     "link": "https://www.montlimart.com/chemises/637-chemise-saint-remy-blanc.html#/1-taille-s",
     "image": "https://www.montlimart.com/278-category_page/chemise-saint-remy-blanc.jpg",
-    "date": "2023-03-13T14:44:30.143Z",
+    "date": "2023-03-19T22:51:13.934Z",
     "brand": "Montlimart"
   }
 ]

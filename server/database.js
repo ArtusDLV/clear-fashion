@@ -1,4 +1,4 @@
-const {MongoClient} = require('mongodb');
+const {MongoClient, ObjectId} = require('mongodb');
 var MONGODB_URI = 'mongodb+srv://artusvilleguerin:12345@clusterclearfashion.npik1qc.mongodb.net/test';
 const MONGODB_DB_NAME = 'clearfashion_db';
 const MONGODB_COLLECTION = 'clearfashion_collection';
@@ -26,12 +26,23 @@ async function insertProductsMongoDB(){
     //fetchProductsSortedByPrice();
     //fetchProductsSortedByDate();
     //fetchProductslessThan2Weeks();
+    //fetchbyID();
 
 async function fetchProductsBrands(){
     await connectMongoDb();
     console.log('fetching products from same brand...');
     const brand = 'Dedicated';
     const products = await collection.find({"brand" : brand}).toArray();
+    return products
+    //console.log(products);
+    //process.exit(0);
+}
+
+
+async function fetchbyID(){
+    await connectMongoDb();
+    console.log('fetching products by ID...');
+    const products = await collection.find({ "_id": ObjectId("640f3707b8266552d9bf5504") }).toArray();
     console.log(products);
     process.exit(0);
 }

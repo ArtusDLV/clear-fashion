@@ -28,7 +28,7 @@ const parse = data => {
         .attr('href');
 
       //Get scraping date
-      const date = new Date();      
+      const date = new Date();
 
       //Get the image of the product
       const image = $(element)
