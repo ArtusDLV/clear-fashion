@@ -57,25 +57,49 @@ const setCurrentProducts = ({result, meta}) => {
  * @param  {Number}  [size=12] - size of the page
  * @return {Object}
  */
-const fetchProducts = async (page = 1, size = 12, brand = "") => {
-  try {
-    const response = await fetch(
-      `https://clear-fashion-api.vercel.app?page=${page}&size=${size}&brand=${brand}`
-    );
-    const body = await response.json();
+const fetchProducts = async (limit = 12, brand = "") => {
+  if(brand=="")
+  {
+    try {
+      const response = await fetch(
+        `https://clear-fashion-4fy2s7nac-artusdlv.vercel.app/products/search?limit=${limit}`
+      );
+      const body = await response.json();
 
-    if (body.success !== true) {
-      console.error(body);
+      if (body.success !== true) {
+        console.error(body);
+        return {currentProducts, currentPagination};
+      }
+
+      return body.data;
+    } catch (error) {
+      console.error(error);
       return {currentProducts, currentPagination};
     }
+  }
+  else
+  {
+    try {
+      const response = await fetch(
+        `https://clear-fashion-4fy2s7nac-artusdlv.vercel.app/products/search?limit=${limit}&brand=${brand}`
+      );
+      const body = await response.json();
 
-    return body.data;
-  } catch (error) {
-    console.error(error);
-    return {currentProducts, currentPagination};
+      if (body.success !== true) {
+        console.error(body);
+        return {currentProducts, currentPagination};
+      }
+
+      return body.data;
+    } catch (error) {
+      console.error(error);
+      return {currentProducts, currentPagination};
+    }
   }
 };
 
+
+//A MODIFIER
 const fetchBrands = async () => {
   try {
     const response = await fetch(
@@ -240,53 +264,11 @@ const render = (products, pagination) => {
  * Select the number of products to display
  */
 selectShow.addEventListener('change', async (event) => {
-  /*
-  const products = await fetchProducts(1, parseInt(event.target.value), brand_selected);  
-  if(filterReleased.value == "filtered")
-  {     
-    var onlyproduct = products.result;
-    var currentTime = new Date();
-    currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.released > currentTime);
-    products.result = onlyproduct;
-  }
-
-  if(filterReasonable.value == "filtered")
-  { 
-    var onlyproduct = products.result;    
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
-    products.result = onlyproduct;
-  } 
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-  */
  allFunctions();  
 });
 
 //Change pagination
 selectPage.addEventListener('change', async (event) => {
-  /*
-  const products = await fetchProducts(parseInt(event.target.value), currentPagination.pageSize, brand_selected);
-  
-  if(filterReleased.value == "filtered")
-  {     
-    var onlyproduct = products.result;
-    var currentTime = new Date();
-    currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.released > currentTime);
-    products.result = onlyproduct;
-  }
-
-  if(filterReasonable.value == "filtered")
-  { 
-    var onlyproduct = products.result;    
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
-    products.result = onlyproduct;
-  }
-  
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-  */
  allFunctions(true);
 });
 
@@ -297,112 +279,21 @@ selectBrands.addEventListener('change', async (event) => {
   {
     brand_selected = "";
   }
-  /*
-  const products = await fetchProducts(1, selectShow.value, brand_selected);
-
-  if(filterReleased.value == "filtered")
-  {     
-    var onlyproduct = products.result;
-    var currentTime = new Date();
-    currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.released > currentTime);
-    products.result = onlyproduct;
-  }
-
-  if(filterReasonable.value == "filtered")
-  { 
-    var onlyproduct = products.result;    
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
-    products.result = onlyproduct;
-  }
-
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-  */
   allFunctions();
 });
 
 // Filter by recently released
 filterReleased.addEventListener('change', async (event) => {
-  /*
-  if(event.target.value == "filtered")
-  { 
-    var products = await fetchProducts(1, 12, brand_selected);
-    var onlyproduct = products.result;
-    var currentTime = new Date();
-    currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.released > currentTime);
-    products.result = onlyproduct;
-    setCurrentProducts(products);
-    render(currentProducts, currentPagination);
-  }
-  else
-  {
-    var products = await fetchProducts(1, 12, brand_selected);
-    setCurrentProducts(products);
-    render(currentProducts, currentPagination);
-  }
-  */
   allFunctions();
 });
 
 // Filter by price
 filterReasonable.addEventListener('change', async (event) => {
-  /*
-  if(event.target.value == "filtered")
-  { 
-    var products = await fetchProducts(1, 12, brand_selected);
-    var onlyproduct = products.result;    
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
-    products.result = onlyproduct;
-    setCurrentProducts(products);
-    render(currentProducts, currentPagination);
-  }
-  else
-  {
-    var products = await fetchProducts(1, 12, brand_selected);
-    setCurrentProducts(products);
-    render(currentProducts, currentPagination);
-  }
-  */
   allFunctions();
 });
 
 // Sort by price and date
 selectSort.addEventListener('change', async (event) => {
-  /*
-  var products = await fetchProducts(selectPage.value, selectShow.value, brand_selected);
-  if(event.target.value == "price-desc")
-  { 
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (p1.price < p2.price) ? 1 : (p1.price > p2.price) ? -1 : 0);  
-    products.result = products_sorted;    
-  }
-  else if(event.target.value == "price-asc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);  
-    products.result = products_sorted; 
-  }
-  else if(event.target.value == "date-desc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (p1.released < p2.released) ? 1 : (p1.released > p2.released) ? -1 : 0);  
-    products.result = products_sorted; 
-  }
-  else if(event.target.value == "date-asc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (p1.released > p2.released) ? 1 : (p1.released < p2.released) ? -1 : 0);  
-    products.result = products_sorted; 
-  }
-  setCurrentProducts(products);
-  render(currentProducts, currentPagination);
-  */
   allFunctions();
 });
 

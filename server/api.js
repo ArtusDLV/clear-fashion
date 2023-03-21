@@ -26,6 +26,14 @@ app.get('/', async (request, response) => {
   response.send({'ack': true});
 });
 
+app.get('/all', async (request, response) => {
+  await connectMongoDb();
+  products = await collection.find().sort({price: 1}).toArray();
+  console.log(products);
+  total = products.length;
+  response.send({"limit":total, "total":total, "results" : products});
+});
+
 app.get('/products/search', async (request, response) => {
   var limit = request.query.limit;
   var brand = request.query.brand;
