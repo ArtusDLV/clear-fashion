@@ -34,6 +34,20 @@ app.get('/all', async (request, response) => {
   response.send({"limit":total, "total":total, "results" : products});
 });
 
+app.get('/brands', async (request, response) => {
+  await connectMongoDb();
+  brands = await collection.distinct("brand");
+  response.send(brands);
+});
+
+app.get('/brandsearch', async (request, response) => {
+  var brand = request.query.brand;
+  await connectMongoDb();
+  products = await collection.find({"brand" : brand}).sort({price: 1}).toArray();
+  total = products.length;
+  response.send({"limit":total, "total":total, "results" : products});
+});
+
 app.get('/products/search', async (request, response) => {
   var limit = request.query.limit;
   var brand = request.query.brand;
@@ -56,14 +70,12 @@ app.get('/products/search', async (request, response) => {
     {
       await connectMongoDb();
       products = await collection.find().sort({price: 1}).limit(limit).toArray();
-      console.log(products);
     }
     else
     {
       price = parseInt(price);
       await connectMongoDb();
       products = await collection.find({"price": {$lt:price}}).sort({price: 1}).limit(limit).toArray();
-      console.log(products);
     }
   }
   else
@@ -72,14 +84,12 @@ app.get('/products/search', async (request, response) => {
     {
       await connectMongoDb();
       products = await collection.find({"brand" : brand}).sort({price: 1}).limit(limit).toArray();
-      console.log(products);
     }
     else
     {
       price = parseInt(price);
       await connectMongoDb();
       products = await collection.find({"brand" : brand, "price": {$lt:price}}).sort({price: 1}).limit(limit).toArray();
-      console.log(products);
     }
   }
 
@@ -90,7 +100,6 @@ app.get('/products/search', async (request, response) => {
 app.get('/products/:id', async (request, response) => {
   //response.send({'ack': true});
   const products = await fetchbyID(request.params.id);
-  console.log(products);
   response.send(products);  
 });
 
@@ -99,7 +108,6 @@ app.listen(PORT);
 console.log(`📡 Running on port ${PORT}`);
 
 async function connectMongoDb(){
-  console.log('Connecting to MongoDB ...');
   const client = await MongoClient.connect(MONGODB_URI, {'useNewUrlParser': true});
   const db =  client.db(MONGODB_DB_NAME);
   collection = db.collection(MONGODB_COLLECTION);
@@ -107,9 +115,7 @@ async function connectMongoDb(){
 
 async function fetchbyID(id){
   await connectMongoDb();
-  console.log('fetching products by ID...');
   const products = await collection.find({ "_id": ObjectId(`${id}`) }).toArray();
-  console.log(products);
   return products
   //process.exit(0);
 }
