@@ -1,12 +1,13 @@
 body{
     background: rgb(26, 124, 181);
 }
+
 h1 {
     font-family: "DMSerif", Verdana;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #000000;
 }
 
@@ -27,12 +28,113 @@ h2{
 
 section div{
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 section{
     border: 2px solid skyblue;
     border-radius: 10px;
     font-family: "DMSerif", Verdana;
-    text-transform: capitalize;
+    margin-bottom: 5px;
 }
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.product {
+    background: rgb(135, 206, 235);
+    box-sizing: border-box;
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+.product img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+.product a {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+  #options {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filters-title {
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+  }
+
+  .products-title{
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+  }
+  
+  .indicators-title{
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+  }
+  
+  #show,
+  #page,
+  #sort {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  #filters {
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  #reasonable,
+  #recently,
+  #brand {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .indicators-notitle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .col {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: rgb(135, 206, 235);
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  

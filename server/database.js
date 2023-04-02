@@ -20,8 +20,8 @@ async function insertProductsMongoDB(){
     console.log(inserted_products);
     process.exit(0);
 }
-    //insertProductsMongoDB();
-    fetchProductsBrands();
+    insertProductsMongoDB();
+    //fetchProductsBrands();
     //fetchProductslessThanPrice();
     //fetchProductsSortedByPrice();
     //fetchProductsSortedByDate();

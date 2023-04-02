@@ -22,6 +22,7 @@ let currentProducts = [];
 let currentPagination = {};
 
 var brand_selected = "";
+var count_all_products = 242; //Useful for the limit (instead of 12, get all products all the time)
 
 // instantiate the selectors
 const selectShow = document.querySelector('#show-select');
@@ -46,9 +47,9 @@ var products_used_for_indicators_filtered;
  * @param {Array} result - products to display
  * @param {Object} meta - pagination meta info
  */
-const setCurrentProducts = ({result, meta}) => {
-  currentProducts = result;
-  currentPagination = meta;  
+const setCurrentProducts = (results) => {
+  currentProducts = results;
+  //currentPagination = meta;  
 };
 
 /**
@@ -57,21 +58,15 @@ const setCurrentProducts = ({result, meta}) => {
  * @param  {Number}  [size=12] - size of the page
  * @return {Object}
  */
-const fetchProducts = async (limit = 12, brand = "") => {
+const fetchProducts = async (limit = count_all_products, brand = "") => {
   if(brand=="")
   {
     try {
       const response = await fetch(
-        `https://clear-fashion-4fy2s7nac-artusdlv.vercel.app/products/search?limit=${limit}`
+        `https://clear-fashion-pqrera056-artusdlv.vercel.app/products/search?limit=${count_all_products}`
       );
       const body = await response.json();
-
-      if (body.success !== true) {
-        console.error(body);
-        return {currentProducts, currentPagination};
-      }
-
-      return body.data;
+      return body.results;
     } catch (error) {
       console.error(error);
       return {currentProducts, currentPagination};
@@ -81,16 +76,10 @@ const fetchProducts = async (limit = 12, brand = "") => {
   {
     try {
       const response = await fetch(
-        `https://clear-fashion-4fy2s7nac-artusdlv.vercel.app/products/search?limit=${limit}&brand=${brand}`
+        `https://clear-fashion-pqrera056-artusdlv.vercel.app/products/search?limit=${count_all_products}&brand=${brand}`
       );
       const body = await response.json();
-
-      if (body.success !== true) {
-        console.error(body);
-        return {currentProducts, currentPagination};
-      }
-
-      return body.data;
+      return body.results;
     } catch (error) {
       console.error(error);
       return {currentProducts, currentPagination};
@@ -98,21 +87,14 @@ const fetchProducts = async (limit = 12, brand = "") => {
   }
 };
 
-
-//A MODIFIER
 const fetchBrands = async () => {
   try {
     const response = await fetch(
-      `https://clear-fashion-api.vercel.app/brands`
+      `https://clear-fashion-pqrera056-artusdlv.vercel.app/brands`
     );
-    const body = await response.json();
+    const body = await response.json();    
 
-    if (body.success !== true) {
-      console.error(body);
-      return {result};
-    }
-
-    return body.data;
+    return body;
   } catch (error) {
     console.error(error);
     return {result};
@@ -124,25 +106,49 @@ const fetchBrands = async () => {
  * @param  {Array} products
  */
 const renderProducts = products => {
+  for (let produit of products) {
+    if (produit.brand === "Circle Sportswear") {
+      produit.image = "https:" + produit.image;
+    }
+  }
   const fragment = document.createDocumentFragment();
-  const div = document.createElement('div');
-  const template = products
-    .map(product => {
-      return `
-      <div class="product" id=${product.uuid}>
-        <span>${product.brand}</span>
-        <a href="${product.link}" target="_blank">${product.name}</a>
-        <span>${product.price}</span>
-      </div>
-    `;
-    })
-    .join('');
+  const container = document.createElement('div');
+  container.setAttribute('class', 'product-container');
+  
+  products.forEach(product => {
+    const productElement = document.createElement('div');
+    productElement.setAttribute('class', 'product');
+    productElement.setAttribute('id', product._id);
 
-  div.innerHTML = template;
-  fragment.appendChild(div);
-  sectionProducts.innerHTML = '<h2>Products</h2>';
+    const imageElement = document.createElement('img');
+    imageElement.setAttribute('src', product.image);
+    imageElement.setAttribute('alt', product.name);
+    imageElement.setAttribute('width', '200');
+    imageElement.setAttribute('height', '200');
+    productElement.appendChild(imageElement);
+
+    const brandElement = document.createElement('span');
+    brandElement.textContent = product.brand;
+    productElement.appendChild(brandElement);
+
+    const nameElement = document.createElement('a');
+    nameElement.setAttribute('href', product.link);
+    nameElement.setAttribute('target', '_blank');
+    nameElement.textContent = product.name;
+    productElement.appendChild(nameElement);
+
+    const priceElement = document.createElement('span');
+    priceElement.textContent = product.price + "€";
+    productElement.appendChild(priceElement);
+
+    container.appendChild(productElement);
+  });
+
+  fragment.appendChild(container);
+  sectionProducts.innerHTML = '<div class="products-title">  <h2>Products</h2> </div>';
   sectionProducts.appendChild(fragment);
 };
+
 
 /**
  * Render page selector
@@ -159,12 +165,8 @@ const renderPagination = pagination => {
 };
 
 const renderBrands = async() => {  
-  const brands_object = await fetchBrands();
-  var brands_array = [];
-  for (const prop in brands_object) {brands_array.push(brands_object[prop]);}  
-  brands_array = brands_array[0];
+  const brands_array = await fetchBrands();
   brands_array.unshift("");
-
   var options = [];
   for (let i = 0; i < brands_array.length; i++) {
     if(brands_array[i] == "")
@@ -186,32 +188,29 @@ renderBrands();
  * Render page selector
  * @param  {Object} pagination
  */
-const renderIndicators = async(pagination) => {
-  const {count} = pagination;
-
-  //Get number of brands
-  const brands_object = await fetchBrands();
-  var brands_array = [];
-  for (const prop in brands_object) {brands_array.push(brands_object[prop])};
-  brands_array = brands_array[0];
+const renderIndicators = async() => {
+  const count = products_used_for_indicators_filtered.length;
 
   if(count != 0)
   {
     const Allproducts = products_used_for_indicators_filtered;
-    var recent_products = {...Allproducts};
-    var price_products = {...Allproducts};
-    var date_products = {...Allproducts};
+    var recent_products = [...Allproducts];
+    var price_products = [...Allproducts];
+    var date_products = [...Allproducts];
 
-    //Get the number of products recently released
-    var onlyproduct = recent_products.result;
+    //Get the number of brands rendered    
+    const uniqueBrands = new Set();
+    Allproducts.forEach((product) => {
+      uniqueBrands.add(product.brand);
+    });
+
+    //Get the number of products recently released    
     var currentTime = new Date();
     currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => Date.parse(onlyproduct.released) > currentTime);
-    recent_products.result = onlyproduct;
+    recent_products = recent_products.filter(recent_products => Date.parse(recent_products.date) > currentTime);
 
-    //Get the p50, p90 and p95 price value indicators
-    var onlyproduct = price_products.result;    
-    let products_sorted = onlyproduct.sort(
+    //Get the p50, p90 and p95 price value indicators   
+    let products_sorted = price_products.sort(
       (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);
     var p50_value = 0;
     var p90_value = 0;
@@ -222,20 +221,27 @@ const renderIndicators = async(pagination) => {
     p95_value = products_sorted[Math.round(products_sorted.length*0.05)].price;
     
 
-    //Get last released date
-    var onlyproduct = date_products.result;    
-    let products_sort_date = onlyproduct.sort(
-      (p1, p2) => (p1.released < p2.released) ? 1 : (p1.released > p2.released) ? -1 : 0);
+    //Get last released date  
+    let products_sort_date = date_products.sort(
+      (p1, p2) => (p1.date < p2.date) ? 1 : (p1.date > p2.date) ? -1 : 0);
     var last_released_date = Date();
-
-    last_released_date = products_sort_date[0].released;
+    last_released_date = products_sort_date[0].date;
+    const formattedDate = new Date(last_released_date).toLocaleString('fr-FR', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    });
+    last_released_date = formattedDate.replace(',', ' à');
 
     spanNbProducts.innerHTML = count;
-    spanNbNewProducts.innerHTML = recent_products.result.length;
+    spanNbNewProducts.innerHTML = recent_products.length;
     spanP50.innerHTML = p50_value;
     spanP90.innerHTML = p90_value;
     spanP95.innerHTML = p95_value;
-    spanNbBrands.innerHTML = brands_array.length;
+    spanNbBrands.innerHTML = uniqueBrands.size;
     spanlastRealeasedDate.innerHTML = last_released_date;
   }
   else
@@ -245,7 +251,7 @@ const renderIndicators = async(pagination) => {
     spanP50.innerHTML = "None";
     spanP90.innerHTML = "None";
     spanP95.innerHTML = "None";
-    spanNbBrands.innerHTML = brands_array.length;
+    spanNbBrands.innerHTML = 0;
     spanlastRealeasedDate.innerHTML = "None";
   }
 };
@@ -253,7 +259,7 @@ const renderIndicators = async(pagination) => {
 const render = (products, pagination) => {
   renderProducts(products);
   renderPagination(pagination);
-  renderIndicators(pagination);  
+  renderIndicators();  
 };
 
 /**
@@ -274,7 +280,7 @@ selectPage.addEventListener('change', async (event) => {
 
 //Change brands
 selectBrands.addEventListener('change', async (event) => {
-  brand_selected = event.target.value
+  brand_selected = event.target.value;
   if(event.target.value == "no-brand")
   {
     brand_selected = "";
@@ -299,73 +305,67 @@ selectSort.addEventListener('change', async (event) => {
 
 const allFunctions = async(change_page) => { 
   //First, get all the products
-  var count = 5;
+  /*
   try {
     const response = await fetch(
-      `https://clear-fashion-api.vercel.app?`
+      `https://clear-fashion-pqrera056-artusdlv.vercel.app/all`
     );
     const body = await response.json();
-
-    if (body.success !== true) {
-      console.error(body);
-    }    
-    count = Object.values(body)[1].meta.count;
   } catch (error) {
     console.error(error);
   }
-  const Allproducts = await fetchProducts(1, count, brand_selected);
-  var products = {...Allproducts};
+  */
+  const Allproducts = await fetchProducts(count_all_products, brand_selected);
+  var products = [...Allproducts];
   //We first filter by price
   if(filterReasonable.value == "filtered")
-  {
-    var onlyproduct = products.result;    
-    onlyproduct = onlyproduct.filter(onlyproduct => onlyproduct.price < 50);
-    products.result = onlyproduct;
+  {   
+    products = products.filter(products => products.price < 50);
   }
   //We then filter by released date
   if(filterReleased.value == "filtered")
   { 
-    var onlyproduct = products.result;
     var currentTime = new Date();
     currentTime.setDate(currentTime.getDate()-14);
-    onlyproduct = onlyproduct.filter(onlyproduct => Date.parse(onlyproduct.released) > currentTime);
-    products.result = onlyproduct;
+    products = products.filter(products => Date.parse(products.date) > currentTime);
   }
   //We then sort the products
   if(selectSort.value == "price-desc")
-  { 
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
+  {   
+    let products_sorted = products.sort(
       (p1, p2) => (p1.price < p2.price) ? 1 : (p1.price > p2.price) ? -1 : 0);  
-    products.result = products_sorted;    
+    products = products_sorted;    
   }
   else if(selectSort.value == "price-asc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
+  {  
+    let products_sorted = products.sort(
       (p1, p2) => (p1.price > p2.price) ? 1 : (p1.price < p2.price) ? -1 : 0);  
-    products.result = products_sorted; 
+    products = products_sorted; 
   }
   else if(selectSort.value == "date-desc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (Date.parse(p1.released) < Date.parse(p2.released)) ? 1 : (Date.parse(p1.released) > Date.parse(p2.released)) ? -1 : 0);  
-    products.result = products_sorted; 
+  {  
+    let products_sorted = products.sort(
+      (p1, p2) => (Date.parse(p1.date) > Date.parse(p2.date)) ? 1 : (Date.parse(p1.date) < Date.parse(p2.date)) ? -1 : 0);  
+    products = products_sorted; 
   }
   else if(selectSort.value == "date-asc")
-  {
-    var onlyproduct = products.result;    
-    let products_sorted = onlyproduct.sort(
-      (p1, p2) => (Date.parse(p1.released) > Date.parse(p2.released)) ? 1 : (Date.parse(p1.released) < Date.parse(p2.released)) ? -1 : 0);  
-    products.result = products_sorted; 
+  {   
+    let products_sorted = products.sort(
+      (p1, p2) => (Date.parse(p1.date) < Date.parse(p2.date)) ? 1 : (Date.parse(p1.date) > Date.parse(p2.date)) ? -1 : 0);  
+    products = products_sorted; 
   }
-
-  products_used_for_indicators_filtered = {...products};
+  products_used_for_indicators_filtered = [...products];
   setCurrentProducts(products);  
 
+  currentPagination = {
+    currentPage: 1,
+    pageCount: 19,
+    pageSize: 12,
+    count: products_used_for_indicators_filtered.length
+  }
+  
   currentPagination.pageSize = parseInt(selectShow.value); 
-  currentPagination.count = parseInt(currentProducts.length);
+  currentPagination.count = parseInt(products_used_for_indicators_filtered.length);
   if(change_page != true)
   {
     currentPagination.currentPage = 1;
@@ -397,14 +397,40 @@ const allFunctions = async(change_page) => {
       new_current_products.push(currentProducts[i])
     }
   }
+  
   render(new_current_products, currentPagination);
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
   const products = await fetchProducts();
 
-  products_used_for_indicators_filtered = {...products};
-  setCurrentProducts(products);
+  products_used_for_indicators_filtered = [...products];
 
-  render(currentProducts, currentPagination);
+  setCurrentProducts(products);
+  
+  currentPagination = {
+    currentPage: 1,
+    pageCount: 19,
+    pageSize: 12,
+    count: products_used_for_indicators_filtered.length
+  }
+
+  const new_current_products = [];
+  if(parseInt(selectShow.value) * parseInt(currentPagination.currentPage) < currentPagination.count)
+  {
+    for(let i = 0 + parseInt(selectShow.value)*(parseInt(currentPagination.currentPage)-1); i < parseInt(selectShow.value) * parseInt(currentPagination.currentPage); i++)
+    {
+      new_current_products.push(products[i])
+    }
+  }
+  else
+  {
+    for(let i = 0 + parseInt(selectShow.value)*(parseInt(currentPagination.currentPage)-1); i < currentPagination.count; i++)
+    {
+      new_current_products.push(products[i])
+    }
+  }
+  
+  render(new_current_products, currentPagination);
+
 });
